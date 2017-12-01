@@ -1,0 +1,2 @@
+Fibonaccirekken er en tallrekke som genereres ved at man adderer de to foregående tallene i rekken. f.eks. om man starter med 1 og 2 blir de første 10 termene 1, 2, 3, 5, 8, 13, 21, 34, 55 og 89.
+Finn summen av alle partall i denne rekken som er mindre enn 4.000.000.000

@@ -1,0 +1,56 @@
+Vi har en rekke rektangler som er definert ved punkter i et kartesiansk koordinatsystem (dvs X og Y akse). Hvert rektangel er definert ved en liste med fire heltall. De to første tallene i lista representerer henholdsvis X og Y koordinatene for hjørnet nederst til venstre i rektangelet, mens de to siste tallene i lista representerer koordinatene til hjørnet øverst til høyre. Sidene i rektangelet er altså parallelle med X og Y aksene. 
+
+Gitt lista [1,2,3,4] Har man altså et rektangel med følgende hjørner:
+
+Nederst til venstre: (1,2)
+Nederst til høyre: (3,2)
+Øverst til venstre: (1,4)
+Øverst til høyre: (3,4)
+
+Om vi har n slike rektangler, der n >= 0, i samme koordinatsystem, og disse til sammen overlapper til å danne nøyaktig ett nytt rektangel (uten hull), sier vi at rektanglene utgjør en rektangelregion.
+
+Eksempel på en gyldig rektangelregion:
+
+    [
+      [1,1,3,3],
+      [1,3,3,4]
+    ]
+
+http://www.sumopaint.com/images/temp/xzxoiofldnbsaags.png
+
+Eksempel på en ugyldig rektangelregion:
+
+    [
+      [1,1,3,3],
+      [3,1,4,2],
+      [1,3,2,4],
+      [2,3,3,4]
+    ]
+
+http://www.sumopaint.com/images/temp/xzqhfxiakqtlerbd.png
+
+Oppgave: Finn ut hvilke av settene i inputfilen som finnes på http://pastebin.com/raw/v0ASPRpE som er gyldige rektangelregioner.
+
+Svar oppgis som kommaseparert liste med true (om settet er en rektangelregion) eller false (om det ikke er det) som verdier for hvert enkelt sett med rektangler.
+
+Eksempel input:
+
+    [
+      [
+        [1,1,3,3],
+        [1,3,3,4]
+      ],
+      [
+        [1,1,3,3],
+        [3,1,4,2],
+        [1,3,2,4],
+        [2,3,3,4]
+      ]
+    ]
+
+
+Eksempel output:
+
+    true, false
+
+

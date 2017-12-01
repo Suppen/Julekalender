@@ -1,0 +1,14 @@
+Julenissen starter i et av hjørnene av en likesidet trekant og skal velge mellom de to mest nærliggende verdiene på neste rad mens han går mot den andre siden. Hva er den største mulige totale verdien han kan finne langs stien gjennom triangelet, og i hvilket hjørne må han starte for å finne denne?
+Svarformat: [hjørne][sum], hvor hjørnene er navngitt [A, B, C], fra toppen med klokka.
+
+Eksempel:
+
+         2
+       5 9
+      8 5 4
+    1 5 9 2
+
+Her har Julenissen startet i hjørne A og valgt verdiene 2, 9, 5, 9 nedover stien for å få en største totalverdi på 25., altså blir svaret A25
+
+Hva blir den største verdien for følgende trekant? http://pastebin.com/raw/LK5358RH
+
