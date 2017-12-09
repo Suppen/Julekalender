@@ -1,0 +1,9 @@
+Vi definerer en sekvens som følger. Gitt et tall ni så er ni+1 lik summen av kvadratene av sifrene i ni. Vi sier at et tall n0 er et juletall hvis og bare hvis tallet 1 er i sekvensen.
+
+Eksempel: 13 er et juletall, fordi den påfølgende sekvensen inneholder tallet 1.
+12 + 32 = 10
+12 + 02 = 1
+
+Så 13 er et juletall med sekvensen: 13, 10, 1.
+
+Finn summen av alle juletall, hvor ingen av tallene i sekvensen er større enn 10.000.000
