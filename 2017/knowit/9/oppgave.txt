@@ -1,0 +1,11 @@
+Som alle vet er det kun snille barn som får gaver fra Julenissen. I år har nissens hjelpere sortert barn i en liste basert på følgende:
+
+    Alle barn er sortert i en liste, og har fått tilordnet et unikt nummer fra 1 og oppover
+    Alle snille barn har et nummer som kan skrives som en sum av to eller flere konsekutive positive heltall. Vi kaller denne summen en snillhetssum.
+    Antall måter nummeret til barnet kan skrives på definerer hvor snilt barnet er, og definerer verdien på gaven barnet får. Mao. verdi på gave = antall forskjellige snillhetssummer.
+
+Eksempel 1: Tallet 9 kan skrives på to måter, 2+3+4 og 4+5. Dette betyr at barn nummer ni får en gave til verdi av 2.
+
+Eksempel 2: Barn nummer 8 vil ikke få noe, fordi 8 ikke kan skrives som en konsekutiv sum av positive heltall.
+
+I Oslo bor det 130.000 barn, som nissens hjelpere har sortert i en liste. Hvor stort er nissens budsjett for Oslo?
