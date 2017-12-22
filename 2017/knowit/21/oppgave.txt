@@ -1,0 +1,30 @@
+Det er en universal sannhet at mine fienders fiender er mine venner. Det er også slik at mine venners fiender er mine fiender. Og mine venners venner er mine venner. Og mine fienders venner er minde fiender. Og mine fienders fienders fiender er mine fiender. Og mine fienders venners fiender er mine venner. Og så videre. Det er selvsagt ikke mulig at samme person er både en venn og en fiende.
+
+Som den strategen du er, er du interessert i å vite hvor mange venner du har, hvor mange fiender du har, og hvor mange du er nøytrale til (du er nøytral til en person dersom du hverken har en direkte eller indirekte relasjon til den personen). Du vet allerede at du er venn med Asgeir, og at du er fiende med Beate. Du har også tilgang på en hemmelig etterretningsrapport om observerte fiendskap og observerte vennskap.
+
+Etterretningsrapporten består av én linje for hvert observerte vennskap eller fiendskap. Hver linje består av nøyaktig tre mellomrom-separerte ord: Det første ordet på linjen er enten vennskap'' ellerfiendskap'', og de to neste ordene er navnene på to personer som er observert å være henholdsvis venner eller fiender. Alle som betyr noe er nevnt i etterretningsrapporten (inkludert Asgeir og Beate), men den inneholder likevel ikke mer enn 21838 observasjoner.
+
+Svaret består av tre heltall x, y og z: Antall venner, antall fiender og antall du er nøytral til.
+
+Rapport: https://gist.github.com/knowitkodekalender/7b28ebeed3bc5d3b91a0ef1a762d9c14
+
+Eksempel
+
+Gitt følgende etterretningsrapport så har du:
+fire venner: Asgeir, Adam, Aron og Aage
+fem fiender: Birger, Beate, Birk, Birte og Borg
+to nøytrale: Chris og Casper
+
+vennskap Adam Aage
+fiendskap Aron Birte
+fiendskap Casper Chris
+vennskap Birger Beate
+fiendskap Birger Aage
+fiendskap Asgeir Birk
+fiendskap Birk Aage
+vennskap Adam Aron
+vennskap Birte Borg
+
+Svaret blir da 4 5 2
+
+NB! Denne oppgaven kan være vanskelig
