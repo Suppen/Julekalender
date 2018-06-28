@@ -34,12 +34,12 @@ parseLine (i, num@(x:_)) = if isLetter x
 
 main = do
     contents <- readFile "11.txt"
-    let (_, num) = let nums = zip [0..] $ lines contents
-                       parsedNums = map parseLine nums
-                       sorted = sortBy (\(_, num1) (_, num2) -> num1 `compare` num2) parsedNums
-                       middleIndex = (length sorted) `div` 2
-                       (originalIndex, _) = sorted !! middleIndex
-                   in  nums !! originalIndex
-    putStrLn $ show num
+    let nums = zip [0..] $ lines contents
+        parsedNums = map parseLine nums
+        sorted = sortBy (\(_, num1) (_, num2) -> num1 `compare` num2) parsedNums
+        middleIndex = (length sorted) `div` 2
+        (originalIndex, _) = sorted !! middleIndex
+        (_, num) = nums !! originalIndex
+    putStrLn $ num
         
         
