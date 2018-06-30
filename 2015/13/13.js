@@ -1,4 +1,4 @@
-var upTo = Number.MAX_SAFE_INTEGER*100;
+var max = Number.MAX_SAFE_INTEGER*100;
 
 var knalls = [];
 
@@ -14,13 +14,13 @@ do {
 			knalls.push(twoProd * threeProd * fiveProd);
 			twos++;
 			twoProd = Math.pow(2, twos);
-		} while (twoProd * threeProd * fiveProd <= upTo);
+		} while (twoProd * threeProd * fiveProd <= max);
 		threes++;
 		threeProd = Math.pow(3, threes);
-	} while (threeProd * fiveProd <= upTo);
+	} while (threeProd * fiveProd <= max);
 	fives++;
 	fiveProd = Math.pow(5, fives);
-} while (fiveProd <= upTo);
+} while (fiveProd <= max);
 
 knalls.sort((a, b) => {
 	return a - b;
