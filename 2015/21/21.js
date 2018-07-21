@@ -1,5 +1,5 @@
 var fs = require("fs");
-var words = fs.readFileSync("21.txt", "utf-8").split("\r\n");
+var words = fs.readFileSync("21.txt", "utf-8").split("\n");
 words.push("sand");
 
 var map = {};
