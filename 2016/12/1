@@ -1,0 +1,107 @@
+
+12.hs:21:20: error:
+    • Couldn't match type ‘[Char]’ with ‘(String, String)’
+      Expected type: [(String, String)]
+        Actual type: [String]
+    • In the expression:
+        concat [map fst romanified, map snd $ reverse romanified]
+      In the expression:
+        \ romanified
+          -> concat [map fst romanified, map snd $ reverse romanified]
+      In the second argument of ‘foldl1’, namely
+        ‘[\ romanified -> concat [map fst romanified, ....],
+          map (\ (a, b) -> (getRoman a, getRoman b)),
+          map (\ n -> let ... in if even n then ... else ...),
+          map ((+ 1) . subtract (ord 'a') . ord), ....]’
+
+12.hs:22:5: error:
+    • Couldn't match type ‘[Char]’ with ‘Int’
+      Expected type: [(String, String)] -> [(String, String)]
+        Actual type: [(Int, Int)] -> [(String, String)]
+    • In the expression: map (\ (a, b) -> (getRoman a, getRoman b))
+      In the second argument of ‘foldl1’, namely
+        ‘[\ romanified -> concat [map fst romanified, ....],
+          map (\ (a, b) -> (getRoman a, getRoman b)),
+          map (\ n -> let ... in if even n then ... else ...),
+          map ((+ 1) . subtract (ord 'a') . ord), ....]’
+      In the expression:
+        foldl1
+          (.)
+          [\ romanified -> concat [map fst romanified, ....],
+           map (\ (a, b) -> (getRoman a, getRoman b)),
+           map (\ n -> let ... in if even n then ... else ...),
+           map ((+ 1) . subtract (ord 'a') . ord), ....]
+
+12.hs:23:5: error:
+    • Couldn't match type ‘(String, String)’ with ‘[Char]’
+      Expected type: [(String, String)] -> [(String, String)]
+        Actual type: [String] -> [(String, String)]
+    • In the expression:
+        map
+          (\ n -> let m = n `div` 2 in if even n then (m, m) else (m + 1, m))
+      In the second argument of ‘foldl1’, namely
+        ‘[\ romanified -> concat [map fst romanified, ....],
+          map (\ (a, b) -> (getRoman a, getRoman b)),
+          map (\ n -> let ... in if even n then ... else ...),
+          map ((+ 1) . subtract (ord 'a') . ord), ....]’
+      In the expression:
+        foldl1
+          (.)
+          [\ romanified -> concat [map fst romanified, ....],
+           map (\ (a, b) -> (getRoman a, getRoman b)),
+           map (\ n -> let ... in if even n then ... else ...),
+           map ((+ 1) . subtract (ord 'a') . ord), ....]
+
+12.hs:24:5: error:
+    • Couldn't match type ‘Int’ with ‘(String, String)’
+      Expected type: [(String, String)] -> [(String, String)]
+        Actual type: [Char] -> [Int]
+    • In the expression: map ((+ 1) . subtract (ord 'a') . ord)
+      In the second argument of ‘foldl1’, namely
+        ‘[\ romanified -> concat [map fst romanified, ....],
+          map (\ (a, b) -> (getRoman a, getRoman b)),
+          map (\ n -> let ... in if even n then ... else ...),
+          map ((+ 1) . subtract (ord 'a') . ord), ....]’
+      In the expression:
+        foldl1
+          (.)
+          [\ romanified -> concat [map fst romanified, ....],
+           map (\ (a, b) -> (getRoman a, getRoman b)),
+           map (\ n -> let ... in if even n then ... else ...),
+           map ((+ 1) . subtract (ord 'a') . ord), ....]
+
+12.hs:25:5: error:
+    • Couldn't match expected type ‘(Char -> Bool)
+                                    -> [(String, String)] -> [(String, String)]’
+                  with actual type ‘[Char]’
+    • The function ‘map’ is applied to three arguments,
+      but its type ‘(Char -> Char) -> [Char] -> [Char]’ has only two
+      In the expression:
+        map toLower filter (\ c -> isLetter c || isNumber c)
+      In the second argument of ‘foldl1’, namely
+        ‘[\ romanified -> concat [map fst romanified, ....],
+          map (\ (a, b) -> (getRoman a, getRoman b)),
+          map (\ n -> let ... in if even n then ... else ...),
+          map ((+ 1) . subtract (ord 'a') . ord), ....]’
+
+12.hs:26:5: error:
+    • Couldn't match expected type ‘[Char]’
+                  with actual type ‘(a0 -> Bool) -> [a0] -> [a0]’
+    • Probable cause: ‘filter’ is applied to too few arguments
+      In the second argument of ‘map’, namely ‘filter’
+      In the expression:
+        map toLower filter (\ c -> isLetter c || isNumber c)
+      In the second argument of ‘foldl1’, namely
+        ‘[\ romanified -> concat [map fst romanified, ....],
+          map (\ (a, b) -> (getRoman a, getRoman b)),
+          map (\ n -> let ... in if even n then ... else ...),
+          map ((+ 1) . subtract (ord 'a') . ord), ....]’
+
+12.hs:29:34: error:
+    • Couldn't match type ‘Char’ with ‘(String, String)’
+      Expected type: [(String, String)]
+        Actual type: String
+    • In the first argument of ‘encrypt’, namely ‘cleartextMessage’
+      In the second argument of ‘($)’, namely ‘encrypt cleartextMessage’
+      In the second argument of ‘($)’, namely
+        ‘show $ encrypt cleartextMessage’

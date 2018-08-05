@@ -14,7 +14,7 @@ let spillere = new Array(1338).fill(1);
 let stiger = {3: 17, 8: 10, 15: 44, 22: 5, 39: 56, 49: 75, 62: 45, 64: 19, 65: 73, 80: 12, 87: 79};
 
 // Parse alle terningkast til tall
-terningkast = terningkast.split("\r\n").map(n => Number.parseInt(n));
+terningkast = terningkast.split("\r\n").map(n => Number.parseInt(n)).reverse();
 
 // Variabler for å holde styr på ting
 let ferdig = false;
@@ -29,7 +29,7 @@ while (!ferdig) {
 	}
 
 	// Kast terningen
-	let terning = terningkast.shift();
+	let terning = terningkast.pop();
 
 	// Flytt
 	spillere[spiller] += terning;
