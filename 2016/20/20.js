@@ -52,7 +52,7 @@ for (let perm of sifferpermutator) {
 	let tall = perm.join("");
 
 	// Prøv alle mulige plasseringer av multiplikatoren
-	for (let i = 2; i < tall.length; i++) {
+	for (let i = 1; i < tall.length; i++) {
 		let a = Number.parseInt(tall.substring(0, i));
 		let b = Number.parseInt(tall.substring(i));
 		let produkt = a*b;

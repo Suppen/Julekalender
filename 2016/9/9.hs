@@ -20,7 +20,7 @@ main = do
     let transactions = map words
                        $ lines
                        $ map (\c -> if c == ',' then ' ' else c) contents
-        foldFunc = (\bank [from, to, amount] -> doTransaction from to (read amount) bank)
+        foldFunc = (\[from, to, amount] bank -> doTransaction from to (read amount) bank)
         initialBank = M.singleton "None" 0
-        bank = foldl foldFunc initialBank transactions
+        bank = foldr foldFunc initialBank transactions
     putStrLn $ show $ length $ filter ((>10) . snd) $ M.toList bank

@@ -11,11 +11,11 @@ nroot n x = x ** (1/n)
 
 isSquare :: Int -> Bool
 isSquare n = m^2 == n
-    where m = floor $ nroot 2 $ fromIntegral n
+    where m = floor $ nroot 2 $ fromIntegral n
 
 isCube :: Int -> Bool
 isCube n = m^3 == n
-    where m = floor $ nroot 3 $ fromIntegral n
+    where m = floor $ nroot 3 $ fromIntegral n
 
 isBelow500000 :: Int -> Bool
 isBelow500000 = (<500000)
@@ -33,4 +33,4 @@ isMagic n = trueConditions == 2
               ]
           count e l = foldl (\s b -> if b then s+1 else s) 0 l
 
-main = putStrLn $ show $ head $ dropWhile (not . isMagic) candidates
+main = putStrLn $ show $ head $ dropWhile (not . isMagic) candidates
