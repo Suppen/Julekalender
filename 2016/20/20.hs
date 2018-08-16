@@ -15,16 +15,13 @@ splitNum digits n = (buildNum a, buildNum b)
 allPossibleNumSplits :: [Int] -> [(Int,Int)]
 allPossibleNumSplits digits = map (splitNum digits) [1..9]
 
--- All possible pair of numbers which can be created from the digits 0-9
-pairs :: [(Int,Int)]
-pairs = concat
+-- List of all products of the pairs
+products :: [Int]
+products = map (\(a,b) -> a*b)
+        . concat
         . map allPossibleNumSplits
         . permutations
         $ [0..9]
-
--- List of all products of the pairs
-products :: [Int]
-products = map (\(a,b) -> a*b) pairs
 
 -- The secret number to find
 alvinsNumber :: Int
