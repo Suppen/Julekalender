@@ -1,0 +1,8 @@
+Matrjosjka Menagerie
+
+Matrjosjkadukker er dukker i ulik størrelse som passer inni hverandre. Her har vi en samling dukker beskrevet med farge og høyde målt i antall millimeter.
+
+Hva er det største antall dukker vi kan putte inni hverandre, gitt at:
+
+    En dukke må være mindre enn en annen for å få plass.
+    En dukke må være en annen farge enn den som den er inni.
