@@ -52,8 +52,7 @@ space xs = 31 : xs
 -- The executor
 runProgram :: String -> Stack
 runProgram p = foldl exe [] p'
-    where p' = filter (/= '\n')
-                   . unlines
+    where p' = concat
                    . map (takeWhile (/= 'K'))
                    . lines
                    $ p
