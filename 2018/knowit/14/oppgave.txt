@@ -1,0 +1,30 @@
+Innbokset sikk sakk
+
+Istedenfor en gave, er dagens luke en gåte, et notat og en safe. Løs gåten for å åpne safen.
+
+Notatet er en beskrivelse av steg, der tallet (1-9) er distanse og bokstavene H, V, F og B er retningene høyre, venstre, frem og bak.
+
+Safen kan åpnes ved å løse gåten:
+
+    Gå ett steg om gangen.
+    Tegn en boks rundt løypen din.
+    Tell plassene du har vært på.
+    Del på plassene inni boksen du ikke har vært på.
+
+Eksempel:
+
+2H2F2H1B3V
+
+gir
+
+-------
+|  456|
+| A987|
+|012  |
+-------
+
+gir svaret 2 fordi 10 / 5 = 2.
+
+Gi svaret med punktum (.) som desimaltegn og 16 desimaler.
+
+Notatet finner du her.

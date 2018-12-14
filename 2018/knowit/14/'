@@ -1,0 +1,36 @@
+import System.IO (readFile)
+import qualified Data.Set as S
+
+walk :: String -> S.Set (Int,Int)
+walk path = walk' path (0,0) S.empty
+    where walk' [] c visited = visited
+          walk' ('\n':xs) c visited = walk' xs c visited
+          walk' (n:d:rest) c@(x,y) visited = walk' rest (x+x'*n', y+y'*n') visited'
+              where (x', y') = case d of
+                                   'H' -> (1,0)
+                                   'V' -> (-1,0)
+                                   'F' -> (0,1)
+                                   'B' -> (0,-1)
+                    n' = read [n]
+                    visited' = S.insert c
+                                   . foldr S.insert visited
+                                   . take n'
+                                   $ zipWith (\(a, b) (a', b') -> (a+a', b+b')) (repeat c) (repeat(x',y'))
+
+--solve :: S.Set (Int, Int) -> 
+solve s =
+    let minX = minimum . map fst . S.toList $ s
+        maxX = maximum . map fst . S.toList $ s
+        minY = minimum . map snd . S.toList $ s
+        maxY = maximum . map snd . S.toList $ s
+        visited = S.size s
+        unvisited = (maxX - minX + 1) * (maxY - minY + 1) - visited
+    in  (visited, unvisited)
+
+main = do
+    content <- readFile "input.txt"
+    print
+--        . solve
+        . walk
+--        $ content
+        $ "2H2F2H1B3V"
