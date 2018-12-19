@@ -1,0 +1,3 @@
+Levenshtein Distance. Løst med https://planetcalc.com/1721/
+
+Svaret er 51

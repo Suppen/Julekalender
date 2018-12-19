@@ -1,0 +1,19 @@
+Strengavstand
+
+Man kan gjøre følgende operasjoner for å transformere én streng til en annen:
+
+    Sette inn et tegn (f.eks. "kat" -> "katt"). En kan sette inn et tegn på et vilkårlig sted i strengen (f.eks. "kat" -> "kaut").
+    Fjerne et tegn (f.eks. "hatt" -> "hat"). En kan fjerne tegnet fra et vilkårlig sted i strengen (f.eks. "hatt" -> "htt").
+    Endre ett tegn (f.eks. "hatt" -> "katt"). Også dette kan skje på et vilkårlig sted i strengen (f.eks. "hatt" -> "hett").
+
+Antallet operasjoner man bruker for å transformere én streng til en annen kaller man strengavstanden.
+
+For eksempel er strengavstanden mellom "hat" og "katt" 2: "hat" -> "hatt" -> "katt"
+
+Hva er den minste strengavstanden mellom følgende strenger?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. God jul.
+
+The quick brown fox jumps over the lazy dog. Godt nytt år.
+
+NB: Mellomrom og spesialtegn teller!
