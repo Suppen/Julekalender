@@ -1,0 +1,5 @@
+Plottet koordinatene i Gnuplot. De er helt sirkulære
+
+22.hs gir ((maxX, maxY), (minX, minY)) så man har rammene. Det er ca. ((1000, 1000), (-1000, -1000)).
+
+Løst med 2*pi*r, altså 2*3.14159*1000, som gir 6283.18, som avrundet gir svaret 6283
