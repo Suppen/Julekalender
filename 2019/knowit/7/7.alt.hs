@@ -8,4 +8,4 @@ codeForDay x = z `rem` magicNumber
               in  head . filter isGood $ [2..magicNumber-1]
           z = specialDividend * y
                                   
-main = print . map codeForDay $ [2..24]
+main = print . codeForDay $ 7

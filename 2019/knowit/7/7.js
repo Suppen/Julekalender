@@ -1,7 +1,22 @@
 "use strict";
 
+const R = require("ramda");
+
 const magicNumber = 27644437;
 const specialDividend = 5897;
+
+const codeForDayFunctional =
+	x => R.compose(
+		R.mathMod(R.__, magicNumber),
+		R.multiply(specialDividend),
+		R.find(
+			R.compose(
+				R.equals(1),
+				R.mathMod(R.__, magicNumber),
+				R.multiply(x)
+			)
+		)
+	)(R.range(2, magicNumber));
 
 const codeForDay = x => {
 	let y;
