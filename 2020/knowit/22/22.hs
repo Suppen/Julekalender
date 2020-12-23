@@ -1,4 +1,4 @@
-import System.IO
+import System.IO (readFile)
 import Data.List.Split (splitOn)
 import Data.Char (toLower, isLetter)
 import Data.List (maximumBy)
@@ -28,10 +28,9 @@ findName (g:gs) (n:ns) acc
 
 processLine :: (Gibberish, [Name]) -> [Name]
 processLine (_, [])      = []
-processLine (gs, (n:ns)) =
-    if   nameFound
-    then n : processLine (gs', ns)
-    else processLine (gs, ns)
+processLine (gs, (n:ns))
+    | nameFound = n : processLine (gs', ns)
+    | otherwise = processLine (gs, ns)
     where result = findName gs n ""
           nameFound = isJust result
           (Just gs') = result
