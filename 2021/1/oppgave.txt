@@ -1,0 +1,18 @@
+Talltull
+
+Av Sverre Johann Bjørke
+
+Tall er helt klart enklest å håndtere når de er nettopp tall. Men som vi kodere vet hender det at en må forholde seg til tall som har blitt strenger. Det er jo irriterende nok, men verre blir det når tallene er gjort om til ord! I strengen "entotrefirefem" har noen gjort om 1, 2, 3, 4, 5 til ord. I denne filen har vi gjort om en liste av tall til en lang streng. Hva er summen av denne listen med tall?
+Opplysninger
+
+    Ingen av tallene er større enn 50
+    Svar med tall, ikke med ord.
+    Høyeste tall blir valgt hvis man kan velge mellom to.
+        For eksempel: "femti" -> 50, altså IKKE 5 og 10
+
+Eksempel
+
+    "entotrefirefem" -> [1, 2, 3, 4, 5] -> 15
+    "sjufirenitrettentrettitretrettitre" -> [7, 4, 9, 13, 33, 30, 3] -> 99
+
+
