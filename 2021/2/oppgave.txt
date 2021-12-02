@@ -1,0 +1,14 @@
+Reisegodtgjørelse
+
+Av Christopher Gjøvåg
+
+Hvert år tilbakelegger Julenissen et betydelig antall kilometer i levering av pakker. Nå krever reinsdyrene reisegodtgjørelse, og ønsker derfor å vite hvor langt de egentlig flyr avgårde.
+Oppgave
+
+I denne fila finner du en liste over alle byene som er planlagt besøkt i år. Posisjonen til byene er oppgitt på formatet Well-Known Text, mer spesifikt: Point(E, N).
+
+Alle byene skal besøkes kun én gang. Nissefar har aldri helt klart å finne en helt optimal rute, så for å bestemme hvilken by han skal videre til, velger han alltid den nærmeste ubesøkte byen på lista.
+
+Hvor langt kommer Nissen og reinsdyrene til å reise i år? Oppgi svaret som et heltall rundet av til nærmeste kilometer.
+
+Anta at reisen starter og slutter nøyaktig på polpunktet og at jordens radius er 6371km.
