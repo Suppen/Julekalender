@@ -1,0 +1,30 @@
+import System.IO (readFile)
+
+data Hood = Hood { getIndex :: Int, getLength :: Int } deriving Show
+
+findLongestNeutralHood :: String -> Int
+findLongestNeutralHood houses = something houses 0 0 0 0
+    where something [] _ _ _ longestLength = longestLength
+          something ('J':xs) len good bad longestLength = something xs len' good' bad longestLength'
+              where good' = good + 1
+                    len' = len + 1
+                    longestLength' = if good' == bad then len' else longestLength
+          something ('N':xs) len good bad longestLength = something xs len' good bad' longestLength'
+              where bad' = bad + 1
+                    len' = len + 1
+                    longestLength' = if good == bad' then len' else longestLength
+          -- XXX The two cases could be merged, but that doubled the running time
+
+something :: String -> Hood
+something =
+    foldl1 (\longest current -> if getLength current > getLength longest then current else longest)
+    . map (\(i, houses) -> Hood i (findLongestNeutralHood houses))
+    . zip [0..]
+    . takeWhile (/= [])
+    . iterate tail
+
+main = do
+    houses <- readFile "input.txt"
+    let longestNeutralHood = something houses
+
+    print (show (getLength longestNeutralHood) ++ " " ++ show (getIndex longestNeutralHood))

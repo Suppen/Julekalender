@@ -1,0 +1,29 @@
+Nøytrale Nabolag
+
+Av Alfred Sollie Rønning
+
+Julenissessen har digitalisert julegaveprosessen. Julenissen har nå en lang digital liste over alle barn, med én bokstav per barn. J representerer et snilt barn, og N representerer et slemt barn. Som vil alle vet, er det kun snille barn som får gaver.
+
+Lista har samme rekkefølge som ruta til julenissen, så nabobokstaver representerer barn som er fysiske naboer og tilhører sammen et nabolag.
+
+Et nabolag som har akkurat like mange snille som slemme barn, er det julenissen kaller et "nøytralt nabolag". Slike nabolag er ekstremt viktig å monitorere og passe på, da det fort kan tippe over og bli et "slemt nabolag".
+Oppgave
+
+Julenissen ønsker å vite hvor stort det største nøytrale nabolaget er. Han ønsker også å vite hvor dette området ligger, indeksen i lista. Hvis det er flere nabolag som er like store som det største, skal det første nabolaget, nabolaget med lavest indeks returneres.
+
+Julenissens digitale liste ligger her.
+
+Løsningen er på formen "størrelse nabolag, indeks nabolag".
+Eksempel
+
+input = JJJJJNNJJNNJJJJJ
+
+[J,J,J,J,J,N,N,J,J,N,N,J,J,J,J,J]
+       |_____________|
+              |
+      [J,J,N,N,J,J,N,N]
+
+Svaret er 8, 3.
+
+8, 5 er også et gyldig og like stort nabolag, men 8, 3 vinner for det kommer først.
+
