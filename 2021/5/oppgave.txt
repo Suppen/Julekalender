@@ -1,0 +1,16 @@
+Generasjonstelling
+
+Av Christopher Gjøvåg
+
+Alven Aurora er interessert i å finne ut hvor mange generasjoner med alver hun kommer fra. Hun har laget et slektstre til å hjelpe med dette. Det er bare ett problem, hun har funnet ut at noen av alvene i treet var noen skikkelige Grincher og vil derfor ikke telle disse.
+Oppgave
+
+Denne fila inneholder et slektstree. Dersom man ignorerer alle Grinchene men likevell teller alle forfedre av disse, hvor lang tilbake går treet?
+Eksempel
+
+Treet som har strengrepresentasjon Aurora(Toralv(Grinch(Kari Robinalv) Alvborg) Grinch(Alva(Alve-Berit Anna) Grete(Ola Hans))) ser slik ut:
+
+eksempeltre
+
+Det korrekte svaret for dette treet er 2
+
