@@ -14,3 +14,5 @@ eksempeltre
 
 Det korrekte svaret for dette treet er 2
 
+
+Det ble senere lagt ut et større tre for de som ville prøve seg på det. Det korrekte svaret på det er 994
