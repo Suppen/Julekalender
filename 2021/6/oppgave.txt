@@ -1,0 +1,29 @@
+Fallende pakker
+
+Av Bjørnar Dalsnes
+
+Alvene jobber på spreng med å pakke gaver høyt oppe i etasjene i Nissens verksted. Her oppe pakkes det bare pakker samme høyde og bredde, men med varierende lengde. Når en pakke er ferdig dyttes den ned over kanten. Pakkene faller så rett nedover og danner etterhvert en lang og høy stabel (à la Tetris). Dessverre så lander ikke alle pakker like stabilt på denne stabelen så mange av pakkene vil falle av.
+
+Filen pakker.txt inneholder en liste over alle pakkene som blir sluppet. Tallet før komma er posisjonen til venstre kant av pakken og tallet etter komma er lengden på pakken. Alle pakker havner med både venstre og høyre kant mellom posisjon 0 og 20. Alle pakker har samme høyde.
+
+En pakke lander ustabilt og vil falle av stabelen hvis midtpunktet til pakken havner utenfor eller på kanten av de første pakkene den lander på. Hvis en pakke faller av kan denne ignoreres videre. Den vil altså ikke blokkere for de resterende pakkene.
+
+Hvor mange av pakkene faller av stabelen?
+Eksempel
+
+Den følgende lista vil gi en stabel som vist i figuren:
+
+0,6
+0,1
+4,3
+
+eks1
+
+Hvis den neste pakken i lista er 2,4 så vil denne falle ned siden midtpunket av denne pakken lander på kanten av pakken under. Denne pakken regnes som falt ned og kan ignoreres videre.
+
+eks2
+
+Merk at hvis den neste pakken er 0,5 så vil denne lande stabilt selv om midtpunktet ikke er over en pakke siden den er støttet opp på begge sider.
+
+eks3
+
