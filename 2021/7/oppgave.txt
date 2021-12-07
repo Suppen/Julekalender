@@ -1,0 +1,39 @@
+Myrmecofobi 🐜
+
+Av Anders Steen Nilsen
+
+Nissen holder i en strikk som er festet i veggen og som er strukket 20cm. Han ser at det er en maur, én centimeter fra veggen innpå strikken. Nissen er veldig redd maur 😱 se: myrmecofobi men mauren er veldig glad i Nissen 🤗💘. Strikken er magisk og kan strekkes i det uendelige.
+
+Det som skjer videre er som følger:
+
+    Nissen gjør et lite steg på 20cm vekk fra veggen, stopper opp og ser på mauren.
+    Mauren beveger seg 1 cm langs strikken mot Nissen, stopper opp og beundrer Nissen.
+        Steg 1 og 2 gjentar seg helt til mauren kommer frem til nissen.
+
+Hvor lang blir strikken før mauren har kommet frem til nissen? Svar i antall meter rundet ned uten benevning. Svar -1 hvis det ikke finnes noen løsning.
+Første 5 steg
+
+Alle mål er centimeter fra veggen.
+Steg	🐜	🎅	Forklaring
+Steg 0	1cm		20cm	Startposisjon
+Steg 1 a	2cm*	40cm	Nissen Beveger seg 20cm
+Steg 1 b	3cm		40cm	Mauren Beveger seg 1 cm.
+Steg 2 a	4.5cm	60cm	Nissen beveger seg 20cm. Strikken økes med 50%.
+Steg 2 b	5.5cm	60cm	Mauren kravler 1cm.
+Steg 3 a	7.33...cm	80cm	Nissen beveger seg 20cm. Strikken økes med 33.33...%.
+Steg 3 b	8.33...cm	80cm	Mauren kravler 1cm.
+Steg 4 a	10.41666...cm	100cm	Nissen beveger seg 20cm. Strikken økes med 25%.
+Steg 4 b	11.41666...cm	100cm	Mauren kravler 1cm.
+Steg 5 a	13.6999...cm	120cm	Nissen beveger seg 20cm. Strikken økes med 20%.
+Steg 5 b	14.6999...cm	120cm	Mauren kravler 1cm.
+
+* Mauren vil følge strikkens strekning. Altså hvis mauren er på midten av strikken og strikken strekkes, så vil fortsatt mauren være på midten. Når mauren er 1 cm fra veggen strikken går fra å være 20cm til 40cm vil strikke-segmentet bak mauren også dobles slik at mauren ender på 2cm fra veggen uten å ha kravlet noe som helst.
+Første 2 steg visualisert:
+
+    0 |-🐜------------------🎅
+    1a |--🐜-------------------------------------🎅
+    1b |---🐜------------------------------------🎅
+    2a |-----🐜------------------------------------------------------🎅
+    2b |------🐜-----------------------------------------------------🎅
+
+
