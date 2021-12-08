@@ -1,0 +1,42 @@
+Pakkeområdedistribueringstetthet
+
+Av Hugo Wallenburg
+
+For å spare tid på selveste julenatten har Julenissen i alle år pleid å ansette en et lite kontinent av alver for å løse Vandrende Nissemann-problemet slik at Nissen kan levere pakkene sine og komme hjem til Nissemor før natten er omme. Dette tror Nissen er økonomisk uforsvarlig dersom han bare hadde et ordentlig redskap til å hjelpe dele ut pakker!
+
+Han setter alvene sine i gang og de kommer snart tilbake med et svar: Pakkeslyngen 3000. Dette vidunderlige redskapet sprer pakker ut fra sleden mens den flyr, i et rektangulært mønster. Noen områder vil få flere gaver, men det mener Nissen er verd bryet når han kan sparke hundretusenvis av alver.
+
+Julenissen flyr fra by til by og slipper pakker rundt seg med Pakkeslyngen 3000. Pakkene blir sluppet i et rektangel fra og med der han starter, til men ikke med der han lander.
+
+Denne inputfilen beskriver Julenissens destinasjoner og ruta han følger. De første 200 linjene beskriver byenes lokasjoner på format (x,y), deretter følger ruta med én lokasjon (0-indeksert) per linje til slutten av fila. Han starter på den første lokasjonen og besøker hver lokasjon i rekkefølge. Han kan besøke hver lokasjon flere ganger. Julenissen er en fjern slektning av Pythagoras og beveger seg aldri i en rett linje, dette medfører at det aldri blir lange linjer med tett pakkedistribuering. Ingen koordinater er høyere enn eller lik 1000.
+Eksempel
+
+Gitt inputfil:
+
+(1,1)
+(6,6)
+(3,2)
+(6,1)
+0,
+1
+2
+
+vil Julenissen fly ruta 0 -> 1 -> 2. Pakker blir dermed sluppet som følger, hvor 0, 1, 2 og 3 er markert som A, B, C, D:
+
+               A -> B        B -> C
+........      ........      ........
+......B.      ......B.      ....11B.
+........      .11111..      .111221.
+........  ->  .11111..  ->  .111221.
+........      .11111..      .111221.
+...C....      .11C11..      .11C11..
+.A....D.      .A1111D.      .A1111D.
+........      ........      ........
+
+A har fått 1 pakke som følge av reisen A -> B, B har fått 1 pakke som følge av reisen B -> C og C har fått 1 pakke som følge av reisen A -> B. D får 0 pakker.
+
+Merk at rutene A <-> D og B <-> D er ugyldige fordi de vil føre til at Julenissen flyr i en rett linje. Denne typen ruter finnes ikke i inputfilen.
+Oppgave
+
+Hvilket rektangel har på slutten av julenatten mottatt flest pakker? Det er kun ett. Oppgi svar som x1,y1 x2,y2 hvor punkt 1 er nedre venstre hjørne og punkt 2 er øvre høyre hjørne. Svar for eksempelet ville vært 4,3 5,5.
+
