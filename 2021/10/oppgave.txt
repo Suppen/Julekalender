@@ -1,0 +1,32 @@
+Skjermlås-mønstre 🗝
+
+Av Tormod Flesjø
+
+Etter hvert som julaften nærmer seg så merker du at spenningen stiger og stiger med tanke på hva du vil få av nissen. Du er usikker på om du klarer å vente helt til den 24. for å se hva som ender opp under treet i år. I et svakt øyeblikk bestikker du en av julenissens hjelpere og kommer i anskaffelse av nissens mobiltelefon! Som du vet kan telefoner låses opp ved å koble en sekvens av punkter i et rutenett med fingeren uten å løfte den. Bildet under viser et eksempel hvor det er 7 punkter:
+
+A -> B -> I -> E -> D -> G -> C
+
+Eksempel
+
+Den korrupte hjelperen har lenge skuet på nissen og forteller deg at koden hans starter på D og er 8 punkter lang.
+
+Hvor mange mønstre må du maksimalt prøve for å låse opp Julenissens mobiltelefon?
+
+Eksempel: Hvis koden starter på G og er 2 punkter lang ville svaret vært 5:
+
+    G -> H
+    G -> F
+    G -> E
+    G -> B
+    G -> D
+
+Regler:
+
+    I et mønster så kan ingen punkter gjentas og kun brukes én gang på det meste.
+    I et mønster så kan to punkter kun kobles sammen med en rett linje på følgende måter (vist i eksempelet):
+        Vertikalt: A -> B
+        Horisontalt: D -> G
+        Diagonalt: I -> E eller B -> I
+        Passere over et punkt som allerede er blitt brukt: G -> C som passerer over E.
+
+
