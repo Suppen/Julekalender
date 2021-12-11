@@ -1,0 +1,23 @@
+Kryptolåst gaveliste
+
+Av Hugo Wallenburg
+
+Julenissen har blitt utsatt for et kryptoangrep! Gavelisten hans er blitt overskrevet med tull og den ondsinnede hackeren krever at alle barn får kull istedenfor! Dette er åpenbart ikke greit for alle verdens barn, så Nordpolen er desperate etter en løsning.
+
+Noen smarte alver tror de har funnet et mønster. Hver linje i listen ser ut til å fortsatt inneholde alle bokstavene fra navnet som opprinnelig stod der. De pønsker ut en plan for å finne tilbake til de opprinnelige navnene.
+
+Denne fila inneholder navnene på alle verdens barn (det var visst ikke så mange i år). Den kryptolåste listen over gaveutdeling finnes her. Et navn matcher en linje i den kryptolåste listen dersom alle bokstavene i navnet finnes i den låste linjen i samme rekkefølge -- eller hvor to påfølgende bokstaver i navnet har byttet plass. Dersom flere navn matcher teller vi kun den matchen som har færrest overflødige bokstaver, og dersom det er flere som har like mange overflødige bokstaver i matchen er det åpenbart noe feil så der teller vi ingen.
+Eksempel
+
+For navnet alvulf vil alle disse feilstavelsene kunne gi gyldig match: lavulf, avlulf, aluvlf, alvluf og alvufl. For den kryptolåste linjen xuabcfglxvuabcflxz får vi følgende match av lengde 14 på alvufl:
+
+  |    | ||   ||
+  v    v vv   vv
+xuabcfglxvuabcflxz
+  `------------`
+       14
+
+Denne matchen har 8 overflødige bokstaver. Dersom vi også hadde hatt navnet ablvufl ville denne gitt en like lang match, men med bare 7 overflødige bokstaver. I dette tilfellet vinner ablvufl. Om vi også skulle tatt med navnet aclvufl vil det være to matcher med like mange overflødige bokstaver og ingen får gave.
+Oppgave
+
+Hvilket av de snille barnene får flest gaver, og hvor mange får de? Oppgi svar som <navn>,<antall>, for eksempel alvulf,788.
