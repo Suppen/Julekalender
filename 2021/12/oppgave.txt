@@ -1,0 +1,43 @@
+Kategoriseringskaos
+
+Av Daniel Johnsen
+
+Å holde styr på alle mulige gaver er ikke lett. Julenissen bestilte derfor en IT-løsning for å kategorisere gaver for et par år siden. Etter mange år med bruk, trengs det nå en opprydding. Mange gaver er fjernet fra systemet, men mappene de lå i har ikke blitt slettet! Vi ønsker derfor å fjerne dem.
+Struktur
+
+Vi har kategorier og gaver:
+
+K er kategori
+G er gave
+
+Strukturen ser for eksempel slik ut:
+
+K Leker
+-K Elektriske
+--G Raspberry pi
+--G Tamogochi
+-K Mekaniske
+--G Rubics cube
+
+En unødvendig kategori er da en kategori som ikke inneholder gave(r), uansett hvor dypt man går.
+Eksempel
+
+K Leker
+-K Elektriske
+--G Raspberry pi
+--G Tamogochi
+-K Mekaniske
+--G Rubics cube
+-K Møbler
+--K Sofaer
+-K Foto
+--K Kamera
+---G Nicon P100
+
+Her kan vi fjerne kategoriene Møbler og Sofaer. Vi sitter da igjen med 5 kategorier. Løsningen er da 5.
+Oppgave
+
+Hvis man fjerner alle de unødvendige kategorierene i denne filen hvor mange kategorier har vi igjen?
+Oppklaringer
+
+    Det kan være duplikater av både kategorier og gaver
