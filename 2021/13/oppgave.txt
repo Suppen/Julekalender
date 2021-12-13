@@ -1,0 +1,37 @@
+Det høge tårn i pipa
+
+Av Sverre Johann Bjørke
+
+På ruta til Julenissen er det eit hus som kvart år gir han trøbbel. Ein barneheim med mange foreldrelause har ei stor og romsleg pipe, men på toppen av pipa er det eit lokk med ei mykje mindre opning i. Pipa endar opp i ein stor open peis i spisesalen, som heldigvis ikkje er i brannforskriftsmessig stand og difor ikkje i bruk.
+
+I år har Julenissen førebudd seg, og alle pakkane til denne barneheimen er pakka i nøyaktig oppmålte 10x10x10 cm store esker. Planen til Julenissen er å ein etter ein sleppe pakkane ned i opninga, og så bruke nissemagi for å styre dei nedover i pipa.
+
+For kvar tiande cm pakkane bevegar seg nedover gir nissen dei eit puff på 10 cm i ein av dei fire himmelretningane, eller let dei dale vidare der dei er. Sidan det er mørkt i pipa ser ikkje Julenissen kvar han styrer pakkane, og difor kan dei kollidere med andre pakkar eller med pipeveggane. I dei tilfellene vil ikkje den dalande pakken bevege seg horisontalt. I det ein pakke landar oppå ein anna pakke eller på botnen av peisen føler Nissen det med nissemagi og prøvar ikkje lenger å flytte den pakken.
+Om pipa har vi følgande opplysningar:
+
+    Pipa er 90x90 cm innvendig.
+
+    Opninga på lokket er 10x10 cm og er plassert i midten
+
+    Frå botnen av peisen til toppen av pipa er det 2500 centimeter.
+
+Input
+
+I denne fila er bevegelsane for kvar enkelt pakke på kvar si linje.
+
+    N - nord
+
+    S - sør
+
+    E - øst
+
+    W - vest
+
+    I - ingenting, pakken står stille
+
+Om ei linje i fila sluttar før pakken har landa fortset pakken naturleg vis rett ned til den landar på noko under seg.
+
+Nissen slepp pakkane med botnen i kant med loket, slik at dei først dalar 10 cm før dei så blir dytta. (Med andre ord blir rekkefølga etter at pakken er inne i pipa horisontalt flytt -> vertikalt flytt osv.)
+Oppgåve
+
+Når nissen til slutt har levert alle pakkane til barneheimen, kor høg er stabelen av gåver målt i centimeter?
