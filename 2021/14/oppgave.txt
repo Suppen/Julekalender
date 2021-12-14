@@ -1,0 +1,11 @@
+Nissar og troll i ord
+
+Av Sverre Johann Bjørke
+
+Det går troll i ord, seiast det, men også nissar kan gøyme seg i ord.
+
+Troll gøymer seg i ord dersom bokstavane T R O L L opptrer i den rekkefølga i ordet, men ikkje om det er meir enn fem bokstavar mellom kvar av troll-bokstavane, og ikkje om det er null bokstavar mellom dei.
+
+Nissar gøymer seg i ord dersom bokstavane N I S S E opptrer i den rekkefølga i ordet, men ikkje om det er meir enn to bokstavar mellom kvar av nisse-bokstavane, eller om den første bokstaven i ordet er ein N eller om den siste ein E.
+
+Kor mange ord frå denne ordlista gøymer det seg troll eller nissar i?
