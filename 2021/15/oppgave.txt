@@ -1,0 +1,23 @@
+Superlur alvekryptering
+
+Av Hugo Wallenburg
+
+Alvene vil øke sikkerheten på systemene sine og har utviklet en ny krypteringsmetode. De har observert at ingen klarer å huske passord som er lengre enn 8 tegn, så det er maks-lengden til krypteringsnøkkelen. På nordpolen både snakker de og skriver veldig fort så de tar seg ikke bryet med store bokstaver, mellomrom eller tegnsetting generelt. Vi jobber kun med bokstavene a-å.
+
+Vi jobber i blokker på 8 tegn. Dersom nøkkelen ikke er 8 tegn fyller vi opp de resterende tegnene med x. Gitt en hemmelig nøkkel godjul av lengde 6 kan vi kryptere innkommende tekst som følger:
+
+For hver blokk B1 ... Bn av 8 tegn gjør vi det følgende:
+
+    Tegnene i blokka Bn[m=1] .. Bn[m=8] blir gjort om til et nytt tegn via alfabetrotasjon: Vi tar indeksen i alfabetet til Bn[m] og legger til indeksen i alfabetet til samme indeks i nøkkelen: "godjul(xx)"[m]. Dersom inputdata er tom for tegn bruker vi x som erstatning for resten av blokka (kryptert data er dermed alltid av en lengde delelig på 8).
+        Om de første tegnene i blokken er abc vil den resulterende krypterte dataen bli a (1) + g (7) = h (8), b (2) + o (15) = q (17), c (3) + d (4) = g (7) eller hqg.
+    Hvert tegn i blokka roteres videre med tegnets indeks i blokka.
+        hqg blir til h+1=i, q+2=s, g+3=j = isj
+    Hvert tegn i blokka blir rotert videre med blokkas indeks i inputdataen ganger lengden på den opprinnelige nøkkelen.
+        isj blir til i+(6*m)=o, s+(6*m)=y, j+(6*m)=p = oyp
+
+Er denne krypteringen egentlig så veldig sikker? Hvilken nøkkel ble brukt til å kryptere disse fire linjene?
+
+wawwgjlmwkafeosjoæiralop
+jagwfjsuokosjpzæynzxtxfnbæjkæalektfamxæø
+wawwgjlmwkoåeosaæeoltååøbupscpfzqehkgdhkjdoqqkuuakvwogjkpøjsbmpq
+vttyøyønøbjåiåzpejsimøldajjecnbplåkyrsliænhbgkvbecvdscxømrvåmagdioftvivwøkvbnyøå
