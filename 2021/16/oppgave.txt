@@ -1,0 +1,52 @@
+Strømsparingsstrategier
+
+Av Daniel Johnsen og Hugo Wallenburg
+
+Hvert år må Nissen lage milliarder av gaver. Dette krever svært mye energi, så han bestemte seg for lenge siden for å importere strøm fra Norge siden de har så mye energi til overs. Med den nåværende trenden i strømpriser begynner Nissen smått å angre, så han har sammen med alverådet bestemt seg for å kun produsere gaver én time om dagen. Denne timen må av julelogistiske årsaker helst være den samme timen hvert døgn, for eksempel hver dag mellom kl 19 og 20.
+
+Alverådet har bestilt historisk prisdata for strøm for å kunne finne når de kan produsere gaver billigst mulig og kjøpt spådommer for neste år som viser de kommende prisene. De ønsker å teste to strategier for å spare penger neste år og med spådommen vet de nøyaktig hva utfallet blir!
+
+Strategi nummer 1: Den timen med lavest sum av priser for forrige år vil være billigst neste år. Neste år skal gaver produseres kun denne timen.
+
+Strategi nummer 2: Lik strategi nummer 1 skal gaver produseres den timen det var billigst året før, men dersom historisk data viser at prisen kom til å være dyrere samme time døgnet etter jobber alvene heller en time ekstra og bruker dagen etter på noe mer fornuftig som å lage oppgaver til Knowits Julekalender.
+
+Merknader for strategi 2: I årets siste døgn jobber alvene maks 1 time. Dersom den billigste timen er time 24 og alvene skal jobbe en time ekstra jobber de inn i neste døgn. Dette er i tråd med alvearbeiderrettighetene.
+Prisdata
+
+I denne eksempelfilen har vi to døgn med data som ser slik ut:
+
+pris +------------------------------------------------
+ 5kr |           l                   o
+ 4kr |        dju g    lgod         g d
+ 3kr |     l o     o  u    j       l   j         o
+ 2kr |    u g       dj      ulg   u     u   djulg d
+ 1kr |go j                     odj       l o       jul
+ 0kr |  d                                 g
+     +------------------------------------------------
+time  123456789...            123456789...
+
+Eksempeldata for neste år ser slik ut:
+
+pris +------------------------------------------------
+ 6kr |    u
+ 5kr |   j l                             l           l
+ 4kr |  d   g     g           g     g   u g         u
+ 3kr | o     o   l o     o   l o   l o j   o j     j
+ 2kr |g       d u   d   g d u   d u   d     d u   d
+ 1kr |         j     j l   j     j             l o
+ 0kr |                u                         g
+     +------------------------------------------------
+time  123456789...            1234567890...
+
+I grafen for forrige år ser vi at timen mellom klokka 2 og klokka 3 på natta, time nummer 3, er den som har totalt lavest sum av priser: 0kr + 1kr = 1kr.
+
+Med Strategi 1 velger vi time 3 og produserer den timen neste år. Summen for denne strategien er 4kr + 2kr = 6kr.
+
+Med Strategi 2 velger vi igjen time 3 og bruker dermed 4kr første døgn -- men forrige år gikk prisen opp, så vi jobber heller en time ekstra og hopper over et døgn. Summen for denne strategien er 4kr + 5kr = 9kr
+
+I denne filen har vi data av strømprisen for hver time de siste 365 dagene. Denne filen viser (gjennom ✨alvespådommer✨) strømprisene for neste år.
+
+Hvilken av strategiene gir billigst produksjon og hvor mye billigere var den beste strategien? Svar som <strateginummer>,<prisforskjell>.
+
+I eksempelet vinner Strategi 1 og svaret er 1,3
+
