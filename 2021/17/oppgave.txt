@@ -1,0 +1,31 @@
+Alvesortering
+
+Av Daniel Johnsen
+
+Hverdagen på nordpolen er ganske travel for alle alvene som skal lage pakker, derfor er det viktig at det holdes styr på hvem det er som dukker opp på jobb hver dag. Alvene stiller seg selv opp for telling i sortert rekkefølge etter fullt navn hver morgen. Det er hver alv sitt eget ansvar å stille seg riktig.
+
+I dag er ikke Nissen i noe godt humør (du hører ham mumle noe om tomme vannmagasiner) og er derfor ekstra kort i lunta. Under opptelling vil de alvene som ikke står i riktig rekkefølge bli sendt til rommet sitt.
+
+For følgende rekke:
+
+Arden Ånestad
+Celinda Nysted
+Helga
+Helga Fossland
+Helgalv
+Ragnhild Rørvik
+Sverre Aae
+Emilee Trengereid
+Elin Tveter
+Maxima Viste
+Åste Hansen
+
+vil Emilee, Elin og Maxima bli sendt til rommene sine.
+Oppgave
+
+I denne filen vil du finne dagens alverekke. Hva er summen av lengden (inkludert mellomrom) av alle navnene til de riktig sorterte alvene etter at de feilplasserte er sendt til rommene sine?
+
+Eksemplet over vil gi summen 13 + 14 + 5 + 14 + 7 + 15 + 10 + 11 = 89.
+
+Store bokstaver er før små bokstaver. Navnene inneholder kun bokstavene a-å og mellomrom.
+
