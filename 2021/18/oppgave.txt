@@ -1,0 +1,25 @@
+Niklatzsekvens
+
+Av Hugo Wallenburg
+
+Vi definerer en Niklatzsekvens, en nær slektning av sekvensen fra Collatz' formodning, for et heltall n som følger:
+
+    Første element er n.
+    Neste element er n / 2 dersom n er et partall, ellers er neste element n * 3 + 1.
+        Niklatz juleregel: Dersom n er delelig på 37 snur vi for de neste 3 elementene om slik at partall gir n * 3 + 1 og oddetall gir n / 2 (rundet ned).
+    Stopp dersom n er blitt 1.
+
+Her er noen eksempler på Niklatzsekvenser:
+
+n=  1: 1 -> 4 -> 2 -> 1
+n=  2: 2 -> 1
+n=  3: 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+n=  4: 4 -> 2 -> 1
+n=148: 148 -> 445 -> 222 -> 667 -> 333 -> 166 -> 499 -> 249 -> 748 -> 374 -> 187 -> 562 -> 281 -> 844 -> 422 -> 211 -> 634 -> 317 -> 952 -> 476 -> 238 -> 119 -> 358 -> 179 -> 538 -> 269 -> 808 -> 404 -> 202 -> 101 -> 304 -> 152 -> 76 -> 38 -> 19 -> 58 -> 29 -> 88 -> 44 -> 22 -> 11 -> 34 -> 17 -> 52 -> 26 -> 13 -> 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+
+Merk at 148, 222 og 333 alle er delelig på 37 så i Niklatzsekvensen for n=148 er de første 7 elementene (etter det første) et resultat av Niklatz juleregel.
+
+For alle n fra og med 1 til og med 1 000 000, hva er summen av alle tallene i alle Niklatzsekvensene der sekvensens lengde er forskjellig mellom Niklatzsekvensen og Collatz' sekvens for samme n?
+
+I eksempelet er det bare lengden for n=148 som er forskjellig. Niklatzsekvensen er 55 elementer lang, mens tilsvarende Collatz' sekvens er 24 elementer lang. Summen av alle tallene i Niklatzsekvensen for n=148 er 13042. Collatz' sekvens er den samme som Niklatzsekvensen dersom vi fjerner Niklatz juleregel.
+
