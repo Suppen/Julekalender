@@ -1,0 +1,19 @@
+Venstrehåndslabyrint
+
+Av Christopher Gjøvåg
+
+Ola har kommet seg til Nordpolen med toget via et sted som heter Uncanny Valley. Vel fremme vil han selvsagt benytte muligheten til å se gavelageret til nissen, og lete etter sine egne gaver.
+
+Etter mye leting finner han frem til den korrekte bygningen, men Nissen & co er ikke så godtroende at de ikke har noen sikkerhetstiltak, så på innsiden av lageret er det bygget en stor labyrint. Heldigvis er Ola en gluping og har hørt om venstrehåndsregelen, som sier: alltid sving til venstre om du kan og sving bare til høyre om du må. Men hvor langt må Ola gå for å løse labyrinten?
+Oppgave
+
+I denne fila ligger en representasjon av labyrinten. Hvert kryss (eller celle) er representert på formatet (Nord, Øst, Sør, Vest), der 0 indikerer vegg og 1 indikerer åpen passasje. Labyrinten er kvadratisk og starter øverst til venstre og slutter nederst til høyre i fila.
+
+Hvor langt må Ola gå for å løse labyrinten med venstrehåndsregelen? Oppgi svaret som antall flytt fra en celle til en annen.
+Eksempel
+
+Her finner du et mindre eksempel. Denne ser slik ut i et litt mer menneskevennlig format:
+
+eksempellabyrint
+
+Svaret for denne er 118.
