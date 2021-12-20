@@ -1,0 +1,27 @@
+Pakke pakke pakke pakke pakke pakke pakke
+
+Av Sverre Johann Bjørke
+
+På Nordpolen er gåveproduksjonen godt i gong. Også Julenissen har modernisert seg, og ved hjelp av moderne fabrikasjonsteknikkar har store delar av produksjonen blitt automatisert. For å behalde litt sjarm og autensitet har likevel Julenissen bestemt at gåver skal pakkast inn for hand. I produksjonshallen har han 500 maskiner. Desse blir skrudd på om morgonen til ulikt tidspunkt og går fram til ca midnatt. Dei produserar gåver av ulike typar fortløpande. Ulike gåver tek ulik tid å produsere, og ulik tid å pakke inn. Nissen vil at alle gåver skal pakkast inn med ein gong dei kjem ut av ei maskin, og sendast vidare til distribusjonshallen så snart dei er pakka inn. For å utnytte arealet godt er Nissen interessert i å minimere antal pakkebenkar som trengs.
+Oppgåve
+
+Gitt denne fila som skildrar dei ulike maskinene og produksjonen deira, kva er det minste antall pakkebenkar som trengs for å klare å ta unna gåveproduksjonen?
+Spesifiseringar
+
+    Gåver blir flytta til og frå pakkediskane på null tid med nissemagi.
+    Om ein pakke er ferdigpakka nøyaktig samtidig som ei gåve er ferdigprodusert blir den produserte gåva pakka på det aktuelle bordet. (Pakkar kan dukke opp og forlate eit pakkebord samstundes.)
+    Ingen gåver skal hope seg opp, det skal til ein kvar tid vere ledig kapasitet til å pakke dei inn.
+
+Forklaring av input
+
+Kvar linje i fila angir når ei maskin blir skrudd på og varene maskina produserar den dagen.
+Døme
+
+09:52, Badeand, 1, 7, Presskanne, 2, 4, Stekepanne, 2, 5
+09:55, Bok, 2, 5, Longboard, 1, 7, Surfebrett, 10, 25
+
+Den første maskina startar klokka 09:52 og produserer ein badeand på 1 minutt som tek 7 minutt å pakke inn, ei presskanne på 2 minutt som tek 4 minutt å pakke inn, og ei steikepanne på 2 minutt som tek 5 minutt og pakke inn.
+
+Den andre maskina startar klokka 09:55 og produserar ei bok på 2 minutt som tek 5 minutt å pakke inn, eit longboard på 1 minutt som tek 7 minutt å pakke inn og eit surfebrett på 10 minutt som tek 25 minutt å pakke inn.
+
+Det trengs 5 pakkebenkar for å ta unna alle gåvene.
