@@ -1,0 +1,20 @@
+Dekodingskaos
+
+Av Bjørnar Dalsnes
+
+Nissen er bekymret for at brev som sendes til Nordpolen skal fanges opp av andre. Derfor har han bedt om at brevene skal krypteres. Det er viktig at krypteringen er såpass enkel at selv små barn kan forstå den så Nissen har derfor valgt bruke denne mappingen:
+
+a -> 1
+b -> 2
+...
+å -> 29
+
+Når Nissen åpner det første krypterte brevet innser han at han gjort en stor feil: Den krypterte meldingen kan dekodes på mange forskjellige måter! For eksempel kan 12 tolkes både som ab og som l. Heldigvis har Nissen tilgang til en omfattende ordliste (zipped). Hvis barna kan sin rettskrivning kan kanskje Nissen likevel tyde meldingene.
+
+Anta at en melding bare inneholder ord fra ordlista og ingen symboler, store bokstaver eller mellomrom. Hva er innholdet i følgende kodede melding?
+
+45205145192051057281419115181357209121021125181201516161911252091475141221011351923522729182181222718192919149121210211251491919514
+Eksempel
+
+7154102112 kan dekodes på følgende måter: gaedjbaab, gaedjbal, gaedjbkb, gaedjuab, gaedjul, godjbaab, godjbal, godjbkb, godjuab, godjul. Bare en av disse er sammensatt kun av ord fra ordlista: god og jul. Svaret er godjul.
+
