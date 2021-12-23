@@ -1,0 +1,16 @@
+Labyrint - Korteste vei
+
+Av Christopher Gjøvåg
+
+Dersom du løste luke 20 vet du at Ola måtte gå ganske langt for å komme frem til pakkene. Men alvene har selvsagt plantegningene for labyrinten, så de vet akkurat hvor de skal gå for å løse labyrinten så fort som mulig.
+
+I denne fila finner du den samme labyrinten som sist. Hvert kryss (eller celle) er representert på formatet (Nord, Øst, Sør, Vest), der 0 indikerer vegg og 1 indikerer åpen passasje. Labyrinten er kvadratisk og starter øverst til venstre og slutter nederst til høyre i fila.
+
+Hva er den korteste veien gjennom labyrinten? Oppgi svaret som antall flytt fra en celle til en annen.
+Eksempel
+
+Her finner du et mindre eksempel. Denne labyrinten ser slik ut i et litt mer menneskevennlig format:
+
+eksempellabyrint
+
+Svaret for denne er 20.
