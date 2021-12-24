@@ -1,0 +1,69 @@
+v Daniel Johnsen og Hugo Wallenburg
+
+Nissen vil se om han jobber like hardt som alvene sine, og tenker at antall skritt er den beste metrikken. Alle alver og Nissen selv får utdelt en skritteller, men de oppdager raskt at mange av skrittene er feilregistrerte! Nissen sin skritteller for eksempel registrerer en hel masse skritt som følge av tidevannskreftene fra hans usannsynlige tyngde. Disse må vi eliminere.
+
+Det er veldig mange forskjellige stillinger på nordpolen og for hver stilling så har de kommet frem til ca. hvor mange skritt som er registrert feil i løpet av en typisk arbeidsdag. Alvene jobber ikke nødvendigvis hver dag i løpet av en uke og hver uke kan de bytte stilling slik at alle får en sjanse til å prøve noe nytt!
+
+Vi har en liste over alle stillinger listet med tittel og hvor mange feilregisterte skritt som blir telt hver dag. Vi har også en logg over arbeid de siste fire ukene med hva slags stilling alvene (og nissen) innehar og hvor mange skritt som er registrert for hver dag for hver alv.
+Loggstruktur
+
+I denne filen finner vi antall typisk feilregistrerte steg i løpet av hver arbeidsdag for hver stilling.
+
+[stilling] / [antall feilregisterte skritt hver mandag] / [...tirsdag] / [...onsdag] / [...torsdag] / [...fredag] / [...lørdag] / [...søndag]
+
+For eksempel:
+
+🌟Nissing🌟 / 1 / 1 / 1 / 1 / 1 / 1 / 1
+Pakkepakker / 5 / 10 / 15 / 20 / 25 / 30 / 35
+Lekeinspektør / 6 / 11 / 16 / 21 / 26 / 31 / 36
+Skøytesliper / 7 / 12 / 17 / 22 / 27 / 32 / 37
+
+I denne filen finner vi antall registerte skritt for hver alv (og nissen) og hvilken stilling denne hadde for gjeldende uke. Hver uke er adskilt med en linje med kun ##.
+
+[navn] / [stilling for gjeldende uke] / [antall registrerte skritt mandag] / [...tirsdag] / [...onsdag] / [...torsdag] / [...fredag] / [...lørdag] / [...søndag]
+
+For eksempel:
+
+Nissen 🎅 / 🌟Nissing🌟 / 2000 / 2000 / 3000 / 4000 / / 5000 /
+Sneglulf / Pakkepakker / / 100 / 100 / 100 / 100 / / 100
+Alvulf / Lekeinspektør / 50 / 50 / 50 / 50 / 50 / 50 / 50
+##
+Nissen 🎅 / 🌟Nissing🌟 / / 100 / / / 1000 / / 1000
+Sneglulf / Skøytesliper / 30 / / / 30 / 30 / / 30
+Alvulf / Lekeinspektør / 30 / 30 / 30 / / 30 / 30 /
+##
+Uke 3...
+##
+Uke 4...
+
+Oppgave
+
+Nissen går selvfølgelig mer enn alle sine undersåtter, men hvor mye mer? For hver ukedag, hvor mange flere skritt går nissen i gjennomsnitt i forhold til snittet av alvene når du har tatt høyde for feilregistrerte skritt for hver stilling? Rund tallet for hver dag ned og svar ved å stringe tallene sammen.
+
+Om vi kun teller de første to ukene fra eksempelet får vi følgende:
+
+Nissen 🎅 går i gj.snitt per ukedag:
+[(2000-1+0)/2=999.5, (2000-1+100-1)/2=1049, (3000-1+0)/2=1499.5, (4000-1+0)/2=1999.5, (0+1000-1)/2=499.5, (5000-1+0)/2=2499.5, (0+1000-1)/2=499.5]
+
+Sneglulf går i gj.snitt per ukedag:
+[(0+30-7)/2=11.5, (100-10+0)/2=45, (100-15+0)/2=42.5, (100-20+30-22)/2=44, (100-25+30-27)/2=39, (0+0)/2=0, (100-35+(30-37=0))/2=32.5]
+
+Alvulf går i gj.snitt per ukedag:
+[(50-6+30-6)/2=34, (50-11+30-11)/2=29, (50-16+30-16)/2=24, (50-21+30-21)/2=19, (50-26+30-26)/2=14, (50-31+(30-31=0))/2=9.5, (50-36+(30-36=0))/2=7]
+
+Gjennomsnittlig antall steg for hver dag for alle alvene:
+[(11.5+34)/2=22.75, (45+29)/2=37, (42.5+24)/2=33.25, (44+19)/2=32, (39+14)/2=26.5, (0+9.5)/2=4.75, (32.5+7)/2=19.75]
+
+Hvor mange flere steg per dag nissen har gått (rundet ned):
+[(999.5-22.75)=976, (1049-37)=1012, (1499.5-33.25)=1466, (1999.5-32)=1967, (499.5-26.5)=473, (2499.5-4.75)=2494, (499.5-19.75)=479]
+
+Tallene stringet sammen:
+9761012146619674732494479
+
+NB
+
+    Nissen er først i hver ukelogg
+    Nissen driver alltid med 🌟Nissing🌟
+    Det går ikke an å gå et negativt antall steg.
+
+
