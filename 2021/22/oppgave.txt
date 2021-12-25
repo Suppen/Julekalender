@@ -1,0 +1,38 @@
+Rubiks brett
+
+Av Anders Steen Nilsen og Hugo Wallenburg
+
+Nissen merker at barn har gått litt lei av hans go-to gave: Rubiks kube. Dette krever drastisk nytenking, og etter mange timer i laboratoriet har oppfinneralvene kommet på den perfekte erstatning: Rubiks brett.
+
+Et Rubiks brett er nesten som en Rubiks kube, men spiller seg ut i to dimensjoner istedenfor tre. Det består av 4 rader og 4 kolonner med ruter, hver rute med et lite bilde. Et flytt av brettet roterer enten en rad til høyre eller venstre, eller en kolonne opp eller ned, ett hakk. Der en av rutene roteres ut av brettet dukker den opp igjen på andre siden.
+
+Et Rubiks brett er løst når det ser slik ut:
+
+🎅🎅🎅🎅
+⛄⛄⛄⛄
+✨✨✨✨
+🎄🎄🎄🎄
+
+Eksempel
+
+  Start         Flytt 1        Flytt 2        Flytt 3        Flytt 4
+                                                             v
+  🎅🎅⛄🎄   ->   🎅🎅⛄🎅   ->  >🎅🎅🎅⛄   ->  >⛄🎅🎅🎅   ->   🎅🎅🎅🎅
+  ✨⛄⛄🎅   ->   ✨⛄⛄⛄   ->   ✨⛄⛄⛄   ->   ✨⛄⛄⛄   ->   ⛄⛄⛄⛄
+  🎄✨✨⛄   ->   🎄✨✨✨   ->   🎄✨✨✨   ->   🎄✨✨✨   ->   ✨✨✨✨
+  🎅🎄🎄✨   ->   🎅🎄🎄🎄   ->   🎅🎄🎄🎄   ->   🎅🎄🎄🎄   ->   🎄🎄🎄🎄
+                      ^
+
+I dette eksempelet løses brettet på 4 flytt.
+Oppgave
+
+For å være sikker på at leken fungerer vil Nissen løse noen av disse brettene selv. Han har upåklagelig nisselogikk og bruker såklart færrest mulig antall flytt for å løse hvert brett. Hvor mange flytt bruker Nissen totalt for alle brettene i denne fila?
+
+Hver rad i fila inneholder ett brett. En linje består av 4 * 4 = 16 tegn, f.eks. 🎅🎅⛄🎄✨⛄⛄🎅🎄✨✨⛄🎅🎄🎄✨ som utgjør følgende brett:
+
+🎅🎅⛄🎄
+✨⛄⛄🎅
+🎄✨✨⛄
+🎅🎄🎄✨
+
+
