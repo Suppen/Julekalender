@@ -1,0 +1,20 @@
+Multipalindromer
+
+Av Daniel Johnsen
+
+Et palindromtall er et tall som blir det samme uansett hvilken vei man leser det, for eksempel 456654.
+
+Nissen definerer multipalindromer slik:
+Tallet er et palindrom i minst tre forskjellige baser mellom base 2 og base 16.
+Eksempel
+
+ 9     =     11      =     1001
+Dec         oct             bin
+
+Over ser vi 9 som et palindrom på 3 forskjellige baser. Dermed er 9 et multipalindrom.
+Oppgave
+
+Summen av alle multipalindromer mellom 0 og 1000 er 29137
+
+Hva er summen av alle multipalindromer mellom 0 og 10 000 000? Svarformen er på desimalform.
+
