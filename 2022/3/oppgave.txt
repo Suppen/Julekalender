@@ -1,0 +1,19 @@
+Optimalisere papirbruk
+
+Av Tita Enstad
+
+På julenissens verksted har de en uendelig lang rull med julegavepapir som brukes til å pakke inn julegavene de produserer. I lys av klimaendringene og faren for at Julenissens hjem skal forsvinne for godt, vil han monitorere bruken av julegavepapir. Resultatene skal rapporteres til FN, så her er det viktig å være så sparsommelig som mulig.
+
+Selv om rullen er uendelig lang, har den en gitt bredde, nemlig 110 cm. Hver pakke er en boks med rette sider, som har en høyde, lengde og bredde. Du kan anta at pakkene legges parallelt med gavepapirets kanter, og at alle pakkene kan få plass innenfor rullens bredde. Rullen kan kun kuttes 1 gang per gave, og minst mulig papir skal brukes på hver pakke.
+Eksempler
+
+    En pakke med dimensjonene 30 cm x 30 cm x 20 cm vil kreve 50 cm julegavepapir fra rullen.
+    En pakke med dimensjonene 30 cm x 30 cm x 30 cm vil kreve 120 cm julegavepapir fra rullen.
+    En pakke med dimensjomene 25 cm x 30 cm x 20 cm vil kreve 45 cm julegavepapir fra rullen.
+
+Oppgave
+
+Hjelp Julenissen å regne ut hvor mange meter julegavepapir som skal brukes denne jula med pakkene i denne filen.
+
+Svaret er totalt antall cm man vil bruke. For eksempel ville svaret vært '215' for eksemplene over.
+
