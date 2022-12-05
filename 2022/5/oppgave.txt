@@ -1,0 +1,28 @@
+Shufflemester
+
+Av Anders Steen Nilsen
+
+Julenissen er en mester til å stokke kortstokk, nesten litt for god. Han tar nemlig alltid en perfect riffle shuffle, a.k.a. out shuffle.
+Out shuffle:
+
+Man deler et partalls antall kort i 2. Holder den øverste delen i høyre hånd og fletter sammen med det nederste kortet først nederst. Altså, det nederste kortet vil ikke forandre plassering. Eksempel på en kortstokk på 52 kort etter en out shuffle:
+
+Eksempel på en outshuffle på 52 kort.
+
+<bilde>
+
+Dette kan være et problem for nissen, særlig med en vanlig kortstokk. En vanlig kortstokk på 52 kort vil etter 8 out-shuffles returnere til sin opprinnelige rekkefølge.
+
+OBS: for at en kortstokk skal kunne stokkes er det et krav om at den skal ha et partall antall kort.
+
+Nissealvene er lei av at nissen stokker kortstokker til sin opprinnelige rekkefølge, derfor har de fjernet alle kortstokker som kan komme til sin opprinnelige rekkefølge etter 12 eller færre out-shuffler.
+
+Dette fant nissen ut og vil bruke en kortstokk som kommer til sin opprinnelige rekkefølge etter 19 ganger.
+Oppgave
+
+Hva er den minste kortstokken som nissen kan stokke 13 ganger slik at den kommer tilbake i opprinnelig rekkefølge?
+Ekstra oppgave for de interesserte:
+
+Hva om alvene hadde fjernet alle kortstokkene som kom tilbake til sin opprinnelige rekkefølge etter 48 eller ferre out-shuffler. Hvor stor er den minste kortstokk nissen nå må finne?
+
+OBS2: Selv om en kortstokk på 128 vil komme tilbake til sin opprinnelige rekkefølge etter 49 ganger vil denne allerede vært fjernet av alvene siden den også kommer tilbake til sin opprinnelige rekkefølge etter 14 ganger og vil derfor være fjernet av alvene.
