@@ -1,0 +1,18 @@
+Ond kryptering
+
+Av Daniel Johnsen
+
+Ånei! Grinsjen har klart å ta et bilde av nissen og fikk med seg hemmelig informasjon! Bildet han tok finner du i denne filen, men det er kryptert med onde tall.
+Onde tall
+
+Et ondt tall er et tall hvor den binære versjonen av tallet har et partall antall enere. For eksempel: - 43 binært er 101011. Binærtallet har fire enere. Fire er et partall og dermed er tallet ondt.
+Eksempel
+
+Her er et eksempelbilde:
+Julestjerne
+
+Dette 20x20 bildet kryptert kan se ut som denne filen. Her er altså svarte piksler onde tall, mens hvite er ikke-onde tall.
+Oppgave
+
+Kan du finne ut hvilken hemmelighet Grinsjen har fått tak i?
+
