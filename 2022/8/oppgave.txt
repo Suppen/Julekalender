@@ -1,0 +1,16 @@
+Operasjon redd reinsdyrene
+
+Av Henrik Vedal
+
+Julenissen er meget avhengig av friske og raske reinsdyr når julesesongen nærmer seg. Deres viktige roller spiller en essensiell del når nissen skal levere gaver til alle verdens snille barn.
+
+De siste årene så har det blitt varmere og snøen har i økende grad smeltet på Nordpolen. For hvert år blir det grønnere og grønnere og dermed finnes det mer mat for reinsdyrene, noe som har økt bestanden kraftig. Dette har ulvene fått med seg og dermed har antall angrep på reinsdyr økt.
+
+For å forhindre at dette skal skje har Julenissen bestemt seg for å sette opp et gjerde rundt beiteområdene til reinsdyrene. Han har instruert alvene til å sette opp trepåler til oppsett av gjerde, men ikke gitt gode nok instrukser. Som et resultat er det blitt plassert trepåler på tilfeldige steder over hele beiteområdet til reinsdyrene. For å vite om det blir plass til alle reinsdyrene, trenger Julenissen hjelp til å finne ut av hvor stort område som for øyeblikket kan gjerdes inn.
+Oppgave
+
+Gitt denne tekstfilen, regn ut arealet av området etter korrekt inngjerding. Rund av til nærmeste heltall.
+
+Eksempel på riktig oppsett av gjerde:
+
+eksempel.png
