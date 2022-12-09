@@ -1,0 +1,42 @@
+Julebrusmaskiner
+
+Av Daniel Johnsen
+
+Statistikkalvene har funnet at det ble drukket 1.337 liter julebrus per dag per innbygger i hele Skandinavia mellom 1. september og 24. desember! Derfor finnes det et stort antall julebrusmaskiner som konstant lager Nordpolarbrus™️ på Nordpolen.
+
+I en skaleringsprosess har alvene mistet oversikt over hvor mange liter som har blitt laget den siste uken. Heldigvis loggfører alle julebrusmaskinene til en fil.
+
+Det produseres kun når temperatur er mellom 95 og 105, vann er mellom 400 og 1500 og kullsyre er mellom 300 og 500. For eksempel vil en maskin produsere når temperatur er 95, vann er 400 og kullsyre er 300.
+
+Når maskinen produserer så bruker maskinen: * Vann slik at maskinen kun har 100L vann igjen * Kullsyre tilsvarende en tiendedel av antall liter kullsyre * Hvis temperatur er 100 grader eller over, så må du trekke fra en førtidel til slutt, fordi litt brus fordamper. Regnestykket er ikke perfekt, så vi runder ned for å kompensere.
+
+Antall liter produsert blir da summen av antall liter vann brukt og antall liter kullsyre brukt rundet ned til nærmeste hel, minus eventuell fordamping.
+
+For eksempel, hvis maskinen har temperatur på 101, inneholder 500 liter vann og 300 liter kullsyre så produserer den:
+
+400 + (300/10) = 430
+Siden temperatur er over eller lik 100 så fordamper 430/40 = 10,75L.
+Rundet ned får vi da 10 Liter fordampet og dermed er resultatet 420 liter.
+
+Oppgave
+
+Kan du ut i fra denne filen finne ut hvor mange liter som er produsert? Hvilken maskin produserte mest?
+Eksempel
+
+For disse maskinene:
+
+Maskin A, temperatur 101C, vann 1078L, kullsyre 486L
+Maskin B, temperatur 90C, vann 1018L, kullsyre 358L
+Maskin C, temperatur 101C, vann 904L, kullsyre 466L
+Maskin B, temperatur 100C, vann 519L, kullsyre 485L
+Maskin A, temperatur 104C, vann 947L, kullsyre 337L
+Maskin C, temperatur 97C, vann 1649L, kullsyre 451L
+Maskin B, temperatur 98C, vann 1203L, kullsyre 485L
+Maskin D, temperatur 104C, vann 490L, kullsyre 801L
+
+Så vil total antall liter være 4295 liter.
+
+Svaret ville da vært "4295 A" fordi A produserte mest med 1859 liter.
+
+NB! Legg merke til at det er flere av samme maskin.
+
