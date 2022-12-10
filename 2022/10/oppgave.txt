@@ -1,0 +1,27 @@
+Reinsdyrs fremtid
+
+Av Håkon Carlsen
+
+Julenissen er bekymret for fremtiden til reinsdyrene sine. Hvert år ser det ut til å bli færre reinsdyr og han frykter at det snart ikke er noen reinsdyr igjen. Julenissen vet godt hva grunnen er. De siste årene har det vært en eksplosjon i ulvepopulasjonen på Nordpolen og hver dag dukker det opp nye døde reinsdyr. Julenissen er også en sterk motstander av jakt og får derfor ikke gjort noe med ulvene.
+
+Heldigvis for Julenissen, har noen dyktige matematikere blant alvene laget en modell for å forutse hvor mange reinsdyr og ulver som er på Nordpolen etter n år. Modellen er som følger:
+
+formel.png
+
+Selv om det ikke er nødvendig å forstå hva parameterne representerer for å løse oppgaven, kan det være interessant å vite hvordan man skal tolke de:
+
+forklaring.png
+
+Funksjonen int() runder ned desimaltall til nærmeste heltall.
+
+Parameterne har følgende verdier:
+
+start_tall.png
+
+I år 0 så er det 125000 reinsdyr og 3500 ulver på nordpolen. Det vil si at:
+
+aar_null.png
+
+Ettersom Julenissen ønsker å vite om reinsdyrene har en langsiktig framtid, spør han om følgende: Hvor mange reinsdyr er det etter 1012 år? Med andre ord hva er R1012?
+
+Tips: For å sjekke om formelen er implementert riktig: R10 (antall reinsdyr etter 10 år) er 60763, og U10 (antall ulver etter 10 år) er 2831
