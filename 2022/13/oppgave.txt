@@ -1,0 +1,15 @@
+Juletrepynt
+
+Av Marcus Goplen
+
+Julenissen er lei av spørsmål om hvordan juletreet burde pyntes, så han har laget en liste (fasit) med type pynt, hvor mye av treet det burde dekke (dekningsprosent), og hvor mye det koster per dm2.
+Pynt 	Dekningsprosent 	Kostnad (per dm2)
+Røde kuler 	4% 	10kr
+Gull-kuler 	4% 	15kr
+Lys 	2% 	30kr
+Juleglitter 	5% 	15kr
+Oppgave
+
+Hvis du går til innkjøp av et juletre som er 180cm høyt (selve grenene starter akkurat 20cm over bakken) og har en radius på 50cm, hvor mye koster all julepynten totalt? Rund av til nærmeste 10-er.
+
+PS: Under treet skal det kun pyntes med gaver.
