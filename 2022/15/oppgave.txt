@@ -1,0 +1,26 @@
+Julesekk pakking
+
+Av Lars Sørlie
+
+Julenissen opplever stadig flere og flere problemer gjennom juletiden, og nå har den gamle julesekken som kunne fylles til det uendelige blitt ødelagt! Han har skaffet seg en ny julesekk men den har et stort problem med at den kun rommer 120 liter. Nissen har mange pakker i forskjellig størrelser som skal pakkes og trenger din hjelp til å finne ut hvor mange ganger han må pakke sekken.
+
+Nissen pakker på følgende måte: Han tar den første pakken i listen og putter den i sekken, han sjekker deretter listen igjen etter den neste pakken som passer og vil alltid ta den første pakken i listen som passer. Dette repeterer han inntil sekken er full eller ingen pakker passer. Når den sekken er levert begynner prosessen på nytt igjen.
+
+Han trenger altså din hjelp til å finne antall ganger han må pakke sekken sin for å levere alle pakkene i listen.
+NB:
+
+Nissen har også opplevd at Grinchen har vært på tokt flere ganger så nå har han satt et maks tak på verdien av pakker han tar med. For å lettere få forsikring har julenissen satt taket til 1700.
+Oppgave
+
+Julenissen har laget en liste med informasjon om pakkene. Du kan anta at alle verdier er oppgitt i heltall og at ingen av pakkene overstiger 120 liter eller en verdi av 1700. Hvor mange turer trenger Julenissen for å levere pakkene til ungene?
+Eksempel:
+
+Med følgende verdier vil det ta totalt 4 turer:
+
+value,volume
+600,30
+1000,40
+100,60
+1300,70
+1400,30
+200,100
