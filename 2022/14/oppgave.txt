@@ -1,0 +1,25 @@
+Reinsdyr logistikk
+
+Av Håkon Carlsen
+
+Når julenissen skal ut og levere pakker så trenger han mange reindsdyr til å dra alt sammen. I årets pakkereise skal nissen levere 106 pakker rundt om i verden. Reisen er 105 km lang.
+
+Pakkene julenissen leverer er helt jevnt fordelt på reisen. Den 1. pakken leveres 100m inn i reisen, den andre pakken leveres 200m inn i reisen osv.
+
+Dessverre orker ikke reinsdyrene å fraktene pakkene mer enn 103 km hver. Altså trenger julenissen 100 skift med reinsdyr. Det første skiftet med reinsdyr drar fra 0 til 103 km, det andre skiftet drar fra 103 til 2 * 103 km osv. Merk at pakken som skal leveres på samme sted som nytt reinsdyr-skift leveres alltid før reinsdyrene skiftes ut.
+
+I tillegg til å dra pakkene må reinsdyrene dra nissen og sleden hele veien. De må også dra de andre reinsdyrene som skal dra senere skift. Når et sett med reinsdyr er ferdig med skiftet, så etterlates de hvor enn de er, og må finne veien tilbake til nordpolen selv :(
+
+De ulike objektene som skal fraktes har følgende vekt:
+
+    Pakke: 100 gram
+    Reinsdyr: 100kg
+    Nisse: 100kg
+    Slede: 900kg
+
+Et reinsdyr er i stand til å dra 200kg i tillegg til seg selv.
+
+Hvor mange reinsdyr trenger man til sammen på starten av reisen (som drar til og begynne med, og som er i sleden for å dra senere), for å gjennomføre hele turen?
+
+PS: oppgaven involverer store tall. Man må være forsiktig for å ikke få avrundingsfeil.
+
