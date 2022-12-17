@@ -1,0 +1,39 @@
+Morfars Nøkler
+
+Av Eirik Vågeskar
+Oppgaven
+
+De fleste norske nøkkelknipper har hatt en Trioving-systemnøkkel hengende på seg. I denne oppgaven skal du finne ut hvor mange unike nøkler av denne typen det finnes – en oppgave som Eirik Vågeskars morfar i sin tid løste på en Commodore 64 (se Historien bak oppgaven)
+Slike nøkler har 7 hakk
+
+Alle nøkler av denne typen har 7 hakk i skjegget. Skjegget er den delen som du stikker inn i låsen. Et hakk er ett bestemt punkt på skjegget der man filer av en viss mengde metall. Hakk 1 er nærmest hodet (den delen du hekter fast til nøkkelknippet). Det som skiller to nøkler av denne typen fra hverandre, er hvor mye man har filt ned nøkkelen inn ved hvert av disse hakkene.
+Hvert hakk files ned til ett av ti nivåer
+
+Når nøklene kommer fra fabrikken er alle hakkene 0 millimeter dype. Når man filer ned et gitt hakk på nøkkelen, har man valget mellom 10 ulike nivåer: Du kan la hakket stå «ufilt» på 0 millimeters dybde, eller du kan file av 0,5; 1,0; 1,5; … og opp til 4,5 millimeter.
+Et hakks naboer og dets avstand fra hodet begrenser dybden
+
+Denne oppgaven dreier seg om antallet mulige kombinasjoner av slike nøkler. Svaret hadde ganske enkelt vært 10<sup>n</sup>, der n er antall hakk, hvis det ikke hadde vært for tre kompliserende regler som begrenser hvor dypt man kan file på et visst hakk:
+
+    Hakket som er nærmest hodet kan høyst files 3,5 millimeter (nivå 7) inn i skjegget. Ellers blir skjegget så tynt langt inne at nøkkelen kan knekke når man prøver å vri den om.
+    Hakket nest nærmest hodet kan høyst files 4,0 millimeter (nivå 8) inn i skjegget. Av samme grunn som forrige punkt.
+    To nabohakk kan høyst ha en dybdeforskjell på 2,5 millimeter (5 nivåer). Fordi hakkene files inn i skjegget som en spiss med en gitt vinkel, er det umulig å få til en større dybdeforskjell enn 2,5 millimeter. Idet forskjellen blir større, begynner man samtidig å ta av metallet som danner høyden til nabohakket. For eksempel: Dersom du prøver å lage et 3,0 millimeter dypt hakk ved siden av et 0 millimeter dypt hakk, vil det sistnevnte i praksis bli spist ned til å være 0,5 millimeter dypt.
+
+Finn mulige kombinasjoner for 7 og 19 hakk
+
+Lag en funksjon som oppgir antallet mulige kombinasjoner på formatet: [antall muligheter med 7 hakk];[antall muligheter med 19 hakk]. Hvis det hadde vært 70 muligheter med 7 hakk og 800 med 19 hakk, skulle du altså sendt inn svaret 70;800
+Hint
+
+Om man skal få riktig svar, og innen rimelig tid, må man gjøre følgende ting:
+
+    Gi opp å holde styr på hver enkelt kombinasjon. Sats heller på å telle kombinasjonene. Mer kan vi ikke avsløre uten å gi bort fasit.
+    Bruke en annen datatype enn flyttall. Antallet mulige nøkler for 19 nøkler er langt høyere enn den som kan lagres nøyaktig i et 64 bits langt flyttall. Finn heller en datatype som kan inneholde store heltall, for eksempel bigint i Javascript.
+
+Historien bak oppgaven
+
+Eirik Vågeskar, som jobber hos Knowit Objectnet, besøkte nylig morfaren sin. Morfaren hans ble født i 1936 og jobbet med låser nesten hele yrkeskarrieren. Eirik hadde med seg et eksemplar av boken "Kode 2" som han er hovedforfatteren bak (hvis du kjenner noen som underviser eller tar fagene IT1 eller IT2, bør de sjekke den ut). De kom derfor i prat om den første gangen morfaren hans hadde laget et dataprogram – som var til den oppgaven du leser nå.
+
+Denne oppgaven løste Eiriks morfar i sin tid på på en Commodore 64 med programmeringsspråket Basic. Det vil si, han løste bare varianten med 7 hakk (det var nok for datamaskinene den gangen). Fordi Eirik syntes det hørtes ut som en artig oppgave å løse selv, fikk han morfaren til å notere reglene. Oppgaven kom til nytte ganske fort, for dagen etter spurte arbeidsplassen hans etter flere oppgaver til julekalenderen. Resultatet ser du her.
+
+Tegning som Eiriks morfar lagde for å illustrere oppgaven:
+
+nøkkel.jpg
