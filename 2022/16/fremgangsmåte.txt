@@ -1,0 +1,1 @@
+Trykket begge bildene inn på en [online steganography decoder](https://incoherency.co.uk/image-steganography/#unhide) som lager et nytt bilde basert på et antall LSB fra et originalbilde. Deretter XOR-et jeg bildene sammen med [ImageMagick-kommando jeg fant på StackOverflow](https://stackoverflow.com/a/8505681)
