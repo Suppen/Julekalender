@@ -1,0 +1,7 @@
+Trykket koden inn på https://www.dcode.fr/hamming-error-correction og kjørte følgende JS på resultatet:
+
+"01010010...0101000"
+  .match(/.{1,8}/g)
+  .map(s => Number.parseInt(s, 2))
+  .map(c => String.fromCharCode(c))
+  .join("")
