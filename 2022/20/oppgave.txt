@@ -1,0 +1,56 @@
+iGløgg telling
+
+Av Håkon Carlsen
+
+Julenissen har samlet inn gløgg for årets julefeiring. På grunn av et jordskjelv har dessverre mye av gløggen rullet utover Nordpolen. For å finne ut hvor mye gløgg som har gått tapt, har Julenissen sendt ut alver for å lete etter gløggen.
+
+Måten en alv leter etter gløgg på er som følger:
+
+    1. Den begynner på et spesifikt startkoordinat
+    2. Deretter går den enten nord (n), øst (e), sør (s) eller vest (v).
+    3. Den noterer seg hvilken retning den har gått. Hvis den finner en flaske gløgg (g), noterer den det ned etter å ha notert retning. Så er det tilbake til steg 2.
+
+I filen alv_sti.txt så er veien alvene har gått beskrevet. Den første linjen er lengden på Nordpolen. Nordpolen et kvadrat, som er like langt som det er bredt.
+
+De 4 neste linjene er stien for 4 alver. Det første delen av en linje, feks (0, 0), er startposisjonen til en alv. Resten av linjen er hvor alven har gått.
+
+Et mindre eksempel er følgende:
+
+10
+(0, 0)eennneeseenngngngennnes
+(0, 9)eegsvssseneenngvgneeegee
+(9, 0)vnnngvvvssvsgvnnneeeeeg
+(9, 9)vvvgvsvgssvvsvneseegegegsg
+
+Her er Nordpolen et kvadratisk grid på 10x10. Den første alven begynte i (0, 0). Den gikk deretter øst, øst, nord, nord osv. Til sammen finner alvene i eksemplet 11 gløgg. Her er et bilde som beskriver hvor alvene har gått og hvor de har funnet gløgg.
+
+alve_gang
+
+Ta alven som begynner i (0, 0) som eksempel:
+
+    Den begynner i (0, 0)
+    e : går til (1, 0)
+    e : går til (2, 0)
+    n : går til (2, 1)
+    n : går til (2, 2)
+    n : går til (2, 3)
+    e : går til (3, 3)
+    e : går til (4, 3)
+    s : går til (4, 2)
+    e : går til (5, 2)
+    e : går til (6, 2)
+    n : går til (6, 3)
+    ng : går til (6, 4), finner gløgg
+    ng : går til (6, 5), finner gløgg
+    ng : går til (6, 6), finner gløgg
+    e : går til (7, 6)
+    n : går til (7, 7)
+    n : går til (7, 8)
+    n : går til (7, 9)
+    e : går til (8, 9)
+    s : går til (8, 8)
+
+Merk at alvene gjør ingenting med gløggen de finner. Så det er mulig for flere alver å finne samme flaske gløgg. Det er også mulig for en alv å finne samme gløgg flere ganger.
+
+Hvor mange flasker gløgg finner alvene i alv_sti.txt tilsammen?
+
