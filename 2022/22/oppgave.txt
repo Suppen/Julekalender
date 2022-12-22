@@ -1,0 +1,47 @@
+Vannstand
+
+Av Daniel Johnsen
+
+Nordpolens miljøkomité kjemper for å gjøre Nordpolen mer miljøvennlig. De har de siste årene fått mer makt, og har derfor bestemt at Nordpolen skal begynne å bruke vannkraft til å supplere kullkraftverket og for å spare litt kull til slemme barn.
+Eksempel
+
+vannstand +------------------------------------------------
+      55% |           l                   o
+      54% |        dju g    lgod         g d
+      53% |       o     o  u    j       l   j         o
+      52% |    ulg       dj      ulg   u     u   djulg d
+      51% |go j                     odj       l o       jul
+      50% |  d                                 g
+          +------------------------------------------------
+      dag  123456789...
+
+Grafen viser vannstand i reservoaret som Nordpolens kraftverk bruker når den produserer kraft.
+
+Hvert punkt er registrert kl 06 på morgenen. Dermed vil forskjellen fra dag n til dag n+1 være hvor mye vann som ble lagt til eller ble borte. Vannstanden vil aldri øke eller minke mer enn én prosent fra en dag til neste.
+
+Dag til dag vil kraftverket alltid stå på, men graden av produksjon vil variere. Reservoaret ble aldri tomt i året som var.
+
+Hvis vannstanden synker og det regnet mye, produserte kraftverket 120 000 MWh det døgnet. Hvis vannstanden synker og det regnet lite eller ingenting, produserte kraftverket 100 000 MWh osv.
+
+Hvis vi tar alle permutasjoner ender vi opp med denne tabellen:
+Endring 	Vær 	Produksjon(MWh)
+Ned 	Mye regn 	120 000
+Ned 	Lite eller ingen regn 	100 000
+Ingen 	Mye regn 	80 000
+Ingen 	Lite eller ingen regn 	60 000
+Opp 	Mye regn 	40 000
+
+Videre har vi også en logg over været for de dagene som er representert i grafen:
+
+dag,mengde
+1, mye regn
+2, lite eller ingen regn
+3, lite eller ingen regn
+...
+
+Dag 1 i eksemplet over vil da produsere 80 000 MWh, fordi det var ingen endring fra dag 1 til dag 2 og det var mye regn.
+
+Med denne eksempel grafen og denne eksempel loggen får vi 1540000 MWh produsert og svaret er da 1540000.
+Oppgave
+
+Hva får vi med denne grafen og denne loggen?
