@@ -1,0 +1,35 @@
+Valutautnytting
+
+Av Anders Steen Nilsen
+
+Nissen har litt dårlig råd til alle julegavene og leter etter lettjente penger. Alveøkonomiprofessor Slufus sier han kan uttnytte Nordpolen-valute-exchange-NS. Slufus gir ett eksempel:
+Eksempel 1
+
+Dersom man har følgende kurs-tabell simple.csv:
+from 	DKK 	ISK 	NOK 	SEK
+DKK 	x 	0.8113 	0.8813 	x
+ISK 	1.2240 	x 	1.0341 	x
+NOK 	1.1267 	0.9602 	x 	0.4863
+SEK 	x 	x 	0.5140 	x
+
+Her står kursen på den valutakoden man veksler fra til venstre og til valutakoden som står øverst. x markerer at det ikke går an å veksle mellom valutaene.
+
+Nissen vil kunne utnytte følgende veksle-syklus [NOK,ISK,DKK,NOK] til å tjene penger. Dersom han begynner med 1000 kroner vil han etter en runde ende opp med 1000 * 0.9602 * 1.2240 * 0.8813 ≈ 1035.77
+Mer info
+
+Slufus sier at disse veksle-syklusene forsvinner ganske kjappt, han råder derfor Nissen til å benytte den korteste veksle-syklusen om han finner flere. Han tror også at det må brukes en lurere algoritme enn brute-force og gir tips til Nissen at han kan høre om alven Bjellemann vil hjelpe han med algoritmen.
+
+MERK: Vi ser altså etter den korteste veksle-syklusen, ikke nødvendigvis den beste.
+Eksempel 2
+
+Nissen spør Bjellemann om å hjelpe å lage ett program og gir en eksempelfil han har fått fra Slufus: medium_example.csv
+
+Bjelleman progger litt og finner ut at med gitt tabell, så ville Nissen kunne brukt veksle-syklusen ['NOK', 'CZK', 'UZS', 'ISK', 'SEK', 'NOK'] til å investert 1000 kroner til å ende opp med 1457.61 kroner.
+Oppgave
+
+Nå er Bjellemann sitt program online, og neste dag klokken 12:52 fikk programmet til Bjellemann inn exchange.csv fra Nordpolen-valute-exchange-NS. Programmet logget den korteste veksle-syklusen den kunne finne.
+
+Hvor mye penger har Nissen etter å ha vekslet 1000 norske kroner (NOK) en runde i den korteste veksle-sykluseen som Bjellemann fant?
+
+Oppgi svaret rundet ned til nærmeste øre KKKK.ØØ.
+
