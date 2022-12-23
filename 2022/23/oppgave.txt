@@ -1,0 +1,36 @@
+Bysykkel
+
+Av Anders Steen Nilsen
+
+Oslo Bysykkel har delt dataene sine om hver tur med bysykkel som blir tatt her.
+
+Julenissen lurer på hvor mange sykler man måtte trengt dersom ingen sykler ble flyttet med bil, nye sykler ble innført eller gamle sykler blir fjernet og fremdeles gjøre det mulig å ha alle sykkelturer som er blitt logget.
+Eksempel 1
+started_at 	ended_at 	duration 	start_station_id 	end_station_id
+04:07:24 	04:14:12 	408 	10 	13
+04:11:40 	04:16:59 	318 	13 	5
+04:23:52 	04:26:09 	137 	2 	13
+04:16:59 	04:47:56 	894 	5 	13
+04:33:08 	04:38:49 	341 	10 	5
+
+Her Ville man trengt 4 sykler, 3 som startet ved Nissen og 1 ved Alvehuset. OBS Når man en sykkeltur ender på en stasjon (Verkstedet) på samme tidspunkt (04:16:59) som en sykkeltur begynner vil man kunne ta i bruk samme sykkel.
+Eksempel 2
+
+Fra datasettet example_15.csv ser vi at vi trenger 13 sykler.
+
+    1 på Schous plass trikkestopp.
+    3 ved Oscars gate
+    5 ved Ringnes Park
+    4 ved Sukkerbiten
+
+Hint
+
+Det kan røpes at løsningen for kun Januar er 950.
+Oppgave
+
+Gitt at Oslo bysykkel ikke kjører noen sykler tilbake med bil eller at noen sykler blir tatt ut eller innført.
+
+Hva er det minste antall bysykler Oslo bysykkel måtte ha plassert til 1.1.2022 slik at alle loggførte sykkelturer kunne bli tatt til og med hele November?
+NB!
+
+Dataen til bysykkel distribueres av Oslo Bysykkel og er under lisensen Norsk lisens for offentlige data (NLOD) 2.0. Vi har lastet ned dataen i CSV format og fjernet unødvendig data i denne komprimerte mappen. Hvis du ønsker å bruke hele datasettet eller i json format kan du finne det på linken øverst. Vennligst last ned dataen én gang fremfor hver gang du kjører slik at vi ikke bruker opp båndbredden til Oslo Bysykkel :)
