@@ -1,0 +1,7 @@
+Kryptert Julehilsen
+
+Av Håkon Carlsen
+
+Julenissen har forberedt en hyggelig julehilsen til alle snille barn i år. Dessverre har noen onde alver kryptert hilsenen. Siden han har drukket for mye gløgg i år, har han glemt hva han tenkte å si. Kan du finne ut hva Julenissen skulle si?
+
+Den krypterte julehilsenen ligger i vedlegget kryptert_julehilsen.txt

@@ -1,0 +1,2 @@
+Plott punktene. Eksperimenter med visningsstørrelsen på grafen. Ved riktig størrelse ser du at det dannes linjer med 0
+og 1 i klynger på 8. Dekod dette som ASCII, og du får svaret.
