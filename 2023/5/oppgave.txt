@@ -1,0 +1,11 @@
+Summe-dele-primtall
+
+Av Daniel Johnsen
+
+Hvis man tar tallet 18 og deler det opp i sifferene det består av, så får man 1 og 8. Hvis man plusser sammen disse sifferene får man tallet 9. Hvis man deretter tar tallet 18 og deler på 9 så får man heltallet 2, som er et primtall. Vi definerer derfor 18 som et summe-dele-primtall tall.
+Eksempel på summe-dele-primtall
+
+Hvis vi tar tallet 9015, så er summen av sifferene lik 15. Hvis vi nå tar 9015 og deler på 15, så får vi heltallet 601. 601 er et primtall, og dermed er 9015 et summe-dele-primtall.
+Oppgave
+
+Nissen har glemt koden til en av leketøyfabrikkene sine. Men frykt ikke! Han husker nemlig at koden er det samme som hvor mange summe-dele-primtall det eksisterer mellom 1 og 100 000 000. Kan du finne koden?
