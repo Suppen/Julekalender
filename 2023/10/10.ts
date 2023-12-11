@@ -81,8 +81,6 @@ export class Chocolate {
 				[x, y - 1], // Up
 				[x, y + 1], // Down
 			]
-				// Filter out neighbours that are out of bounds
-				.filter(([x, y]) => x >= 0 && x < this.width && y >= 0 && y < this.height)
 				// Filter out neighbours that do not exist
 				.filter(([x, y]) => this.#nodes.has(`${x},${y}`))
 				// Get the nodes from the coordinates
