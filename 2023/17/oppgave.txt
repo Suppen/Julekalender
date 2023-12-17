@@ -1,0 +1,16 @@
+Julegatelys
+
+Av Hugo Wallenburg
+
+Ulf-Katrine Alvingtun elsker vinteren i byen, spesielt liker hun å gå gatelangs og beskue juledekorasjonene. Hun har akkurat gjort seg ferdig med dagens beskuing og snudd snuta i retning hjem da hun i øyekroken ser... nei det kan da ikke være riktig? Det ser ut som det er en skapning i julelysene! Men idet hun tar neste steg er vesenet borte. Litt fortumlet fortsetter hun hjemover, nå i litt bedre humør.
+
+På vei hjem finner hun arbeidsordren for julelysene, det ser ut som den inneholder en liste av alle snorene med julelys. Hun vil gjerne finne ut av hva det var hun så og tar med seg lista hjem til PC-en for å komme til bunns i det!
+
+Arbeidsordren inneholder dimensjonene på gata hvor lysene skal henges opp og deretter en liste av definisjoner for snorene lampene henger i. Kurven til hver snor når den er hengt opp ser ut til å være gitt ved tre parametere, koeffisientene til et andregradspolynom: ax^2 + bx + c. Lysene på hver snor er deretter gitt ved tre parametere per lys: hvor langt inn på snoren fra starten det henger (lengde langs snoren, ikke luftlinje fra veggen), intensiteten på lyset og radiusen på lyset.
+
+(bredde høyde)
+(a b c): (posisjon intensitet radius) ...
+...
+
+Hva var det Ulf-Katrine så i julelysene?
+
