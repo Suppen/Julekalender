@@ -1,4 +1,5 @@
 import Data.Map.Strict qualified as M
+import Data.Monoid (Sum (..))
 import Data.Set qualified as S
 import System.IO (readFile)
 
@@ -73,11 +74,11 @@ allBlanketPositions cowboyElf blanket =
 
 totalComfort :: CowboyElf -> Blanket -> Int
 totalComfort cowboyElf blanket =
-  S.foldr comfortAccumulator 0 overlappingPoints
+  getSum $ foldMap comfortAccumulator overlappingPoints
   where
     overlappingPoints = S.intersection blanket (M.keysSet cowboyElf)
-    comfortAccumulator :: Point -> ComfortLevel -> ComfortLevel
-    comfortAccumulator point comfortLevel = (cowboyElf M.! point) + comfortLevel
+    comfortAccumulator :: Point -> Sum ComfortLevel
+    comfortAccumulator point = Sum (cowboyElf M.! point)
 
 main = do
   cowboyElf <- parseCowboyElf <$> readFile "joe.txt"
