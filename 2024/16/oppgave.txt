@@ -1,0 +1,34 @@
+Honk Choo
+
+Av Hugo Wallenburg
+
+Kugutt-alven vår er atter en gang søvnig. Roen har senket seg over Nordpol-prærien og han har for en gangs skyld et fullstendig fungerende teppe. Men han sliter med å finne et koselig sted å legge seg!
+
+Bakken overalt rundt han er full av stikkete småbusker og rester etter fordums slag og eskapader. Det eneste stedet som er noenlunde bart på bakken er den nærliggende forlatte togbanen, hvor området midt i sporet er for det meste jord med litt sand og litt grus innimellom. Selvfølgelig er det mange sviller igjen som stikker ut etter mange år under åpen himmel, men det skal nok gå fint å finne et koselig sted å sove likevel!
+
+Kugutt-alven vår har følgende kroppsproporsjoner:
+
+hode: 5
+nakke: 2
+overkropp: 9
+rumpe: 3
+ben: 10
+
+Filen er et tverrsnitt av togsporet. På første linje i filen er * sviller og er tomrom. Bakken på togbanen er gitt ved j jord, g grus og s sand på linje 2. Se for deg at han sover oppå filen.
+
+Kugutt-alven vil sove med føttene mot venstre. En tilstrekkelig koselig plass å sove må oppfylle disse kravene:
+
+    Han vil ha minst én sville som pute under hodet.
+    Han liker ikke å ha noe trykkende på nakken, ingen sviller der. Selvfølgelig liker han heller ikke sand i nakken!
+    Rumpa hans er alltid komfortabel på jord og sand uansett hvor mange sviller. Overkroppen også.
+    Han kan ha opp til én sville under bena som støtte.
+    Han liker ikke grus! Det kan ikke være grus på noen del av underlaget, også under sviller.
+    Dersom hele underlaget er jord og det ikke er noen sviller kan han fint sove der også.
+
+Her er et eksempel på et komfortabelt sted langs sporet kugutt-alven kan sove:
+
+    BBBBBBBBBBRRROOOOOOOOONNHHHHH
+ *       *      **     *      * ** **
+jjggsssjjssssssjjjjjsssssjjjjjjsjjggggssj
+
+Hvor mange plasser langs ruten kan Kugutt-alven sove komfortabelt?
