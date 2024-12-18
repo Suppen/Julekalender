@@ -1,0 +1,14 @@
+Vampyrfeber
+
+Av Eirik Valen
+
+På Nordpolen har alvene mange rare juletradisjoner. Noen lager pepperkakehus, andre polerer reinsdyrsko, men en spesiell alv har en litt annerledes hobby. Elvward Snøllen har hver jul et maraton av alle Twilight-filmene og har derfor blitt fullstendig oppslukt av såkalte vampyrtall. Når han ikke pakker gaver eller fyller julestrømper, sitter han i et mørkt hjørne av verkstedet og jakter på mystiske tall med spesielle egenskaper.
+
+For de som ikke kjenner til vampyrtall, er dette tall som oppfører seg som en slags matematisk gåte. De har en mørk hemmelighet: det er tall som har minst to sifre og kan deles opp i to mindre tall, kalt "hoggtenner". Hoggtennene har hver halvparten av antall sifre som originaltallet og inneholder til sammen alle sifrene til orginaltallet. Produktet av disse hoggtennene er det originale tallet. Altså om det finnes en måte man kan stokke om alle sifrene i et tall til to nye tall som inneholder nøyaktig de samme sifrene, i hvilken som helst rekkefølge, og som hvis multipliseres sammen blir det orginale tallet, er dette et vampyrtall. For eksempel er 1260 et vampyrtall, fordi det kan deles opp i hoggtennene 21 og 60 – og når disse ganges sammen får vi nettopp 1260.
+
+Men det stopper ikke der. Elvward har også oppdaget noe han kaller pseudo-vampyrtall, som er enda mer mystiske. Dette er en annen form for vampyrtall, og det som er spesielt med disse er at de kan ha en ujevn mengde sifre og kan deles opp i enten to eller fler hoggtenner som ikke trenger å ha samme antall siffer. Så alle vanlige vampyrtall er også pseudo-vampyrtall (som f.eks 1260 over), men blant pseudo-vampyrtallene har vi flere tall i tillegg. For eksempel så er 126et pseudo-vampyrtall, fordi det kan deles opp som 6 × 21 = 126.
+
+16368 er også et pseudo-vampyrtall, fordi det kan deles opp som 66 × 31 × 8 = 16368.
+
+Nå trenger Elvward din hjelp. I en gammel bok fant han en lang liste med tall, men han har ikke tid til å finne alle pseudo-vampyrtallene selv – det er tross alt snart julaften! Kan du hjelpe ham med å finne summen av alle pseudo-vampyrtallene i filen tall.txt?
+
