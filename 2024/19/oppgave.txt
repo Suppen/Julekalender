@@ -1,0 +1,34 @@
+Dombjelletall
+
+Av Daniel Johnsen
+
+Rudolf er et reinsdyr. Det er det liten tvil om, og det vet de aller fleste. Det ikke alle vet er at Rudolf også er et matematisk geni som elsker tall. Og aller mest i hele verden elsker han Dombjelletall.
+
+"Dombjelletall?", spør du kanskje. Og det er det ikke rart om du gjør, for dette er Rudolf sin egen oppfinnelse. Og det er svært få andre som vet om dem. De heter dette fordi Rudolf tenker på disse mens han og de andre reinsdyrene leverer julegaver med nissen. "Greit det", tenker du kanskje videre, "men hva er disse dombjelletallene?".
+
+Jo, hvis f.eks. tallet 3432 gjøres om til sin binære 16 bit representasjon, så ser den slik ut:
+
+Tallet 3432:
+0000110101101000
+
+Denne representasjonen blir så delt opp i 4 soner. To og to soner skal være like lange som hverandre, og de skal ha en lengde på minst 2, slik:
+
+[[0 0] [0 0] [1 1 0 1 0 1] [1 0 1 0 0 0]]
+[[0 0] [0 0 1 1 0 1] [0 1] [1 0 1 0 0 0]]
+[[0 0] [0 0 1 1 0 1] [0 1 1 0 1 0] [0 0]]
+[[0 0 0 0 1 1] [0 1] [0 1] [1 0 1 0 0 0]]
+[[0 0 0 0 1 1] [0 1] [0 1 1 0 1 0] [0 0]]
+[[0 0 0 0 1 1] [0 1 0 1 1 0] [1 0] [0 0]]
+[[0 0 0] [0 1 1] [0 1 0 1 1] [0 1 0 0 0]]
+[[0 0 0] [0 1 1 0 1] [0 1 1] [0 1 0 0 0]]
+[[0 0 0] [0 1 1 0 1] [0 1 1 0 1] [0 0 0]]
+[[0 0 0 0 1] [1 0 1] [0 1 1] [0 1 0 0 0]]
+[[0 0 0 0 1] [1 0 1] [0 1 1 0 1] [0 0 0]]
+[[0 0 0 0 1] [1 0 1 0 1] [1 0 1] [0 0 0]]
+[[0 0 0 0] [1 1 0 1] [0 1 1 0] [1 0 0 0]]
+
+Minst en av disse linjene har 2 like binærsone-par:
+
+[[0 0 0] [0 1 1 0 1] [0 1 1 0 1] [0 0 0]]
+
+Her er altså første og fjerde sone lik hverandre, og andre og tredje sone er lik hverandre. Derfor er 3432 et Dombjelletall. Hvor mange Dombjelletall finner du mellom 0 og 65535, altså fra og med 0000 0000 0000 0000 til og med 1111 1111 1111 1111 binært?
