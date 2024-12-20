@@ -1,0 +1,45 @@
+Festglad Alvesort
+
+Av Didrik Aalen Pemmer
+
+Julenissen elsker to ting: sortering og festing. Derfor har han kombinert begge deler i en ny sorteringsalgoritme han kaller Festglad Alvesort. For å forberede seg til julaften, skal han sortere alvene sine etter høyde ved hjelp av denne algoritmen. På denne måten kan han kose seg med både sortering og fest!
+
+Hvordan fungerer Festglad Alvesort? Festglad Alvesort starter som en vanlig Alvesort:
+
+    Du er en sorteringsalv.
+    Du stiller deg mellom den første og andre alven i rekken vendt mot slutten av rekken.
+    Frem til du ikke har noen alver foran deg:
+     Dersom du har en alv bak deg og alven foran deg er lavere enn den bak deg:
+      Få dem til å bytte plass.
+      Flytt deg én alv bakover.
+     Ellers:
+      Flytt deg én alv forover.
+    Hurra! Alle alvene er sortert.
+
+Du har kanskje merket at Alvesort inneholder ikke en eneste fest. Derfor har nissen lagt til følgende regler for Festglad Alvesort:
+
+    Etter hver syvende alv du bytter plass på (men før du flytter deg bakover) ber nissen deg arrangere en fest!
+    De neste fem alvene foran deg i rekken får feste til de er tilfredse, og når de er ferdige stiller de seg i omvendt rekkefølge fra slik de startet.
+    Deretter fortsetter du som vanlig Alvesort fram til neste fest.
+
+Din oppgave: Hjelp nissen med å implementere Festglad Alvesort for å sortere disse alvene (<navn> <høyde>) etter høyde. Når sorteringen er ferdig skal du returnere navnet på alven som var med på flest fester og antall fester vedkommende var med på formatet navn,antall_fester
+
+For eksempel for alvene i eksempelet under så vil svaret være Luthien,5
+
+Legolas 75
+Tauriel 84
+Elrond 45
+Galadriel 59
+Thranduil 69
+Arwen 99
+Haldir 76
+Glorfindel 46
+Finrod 204
+Erestor 60
+Celebrimbor 99
+Fingolfin 66
+Gil-Galad 97
+Luthien 116
+Feanor 129
+
+
