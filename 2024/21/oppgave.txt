@@ -1,0 +1,14 @@
+Hjelp, vi er tomme for grøtris!
+
+Av Lars Sørlie
+
+For en stund siden bestemte Nissen seg, med hjelp fra den sørpolske teknologien BakstGPT, for å kutte risgrøt fra alvenes matpause for å stramme inn kostnader. Alvene tålererer dette særdeles dårlig og nå har de nådd bristepunktet og ser seg nødt til å streike for å få tilbake grøten sin. Det er midt i julestria og Nissen klarer ikke produsere alle gavene uten billig alvekraft. Han ser seg nødt til å gi alvene det de vil ha (han kan heller straffe dem senere). Alvene har kun ett krav: Grøt. Grøten skal såklart være laget av NordPolar-grøtris, en eksklusiv grøtrissort som kun selges i Norge.
+
+Nissen trodde han var ferdig med å servere risgrøt, så lagrene på Nordpolen er helt tomme for grøtris. Han må kaste seg rundt og kjøpe all grøtrisen han kan få hendene sine på og finner til hjelp en liste med koordinater til hver butikk og deres respektive grøtrisbeholdning (butikker.csv). I sin hast overser han noe kritisk viktig: Det er såklart bare butikkene i Norge som selger NordPolar-grøtris! Han holder på å fortvile, for hvordan kan han vel både finne hvilke av butikkene som er i Norge og nå dem alle i tide til jul?
+
+Kan du hjelpe? Alva Lovelace er opptatt med å lage de siste oppgavene til årets julekalender, men for å bistå litt finner hun i alvearkivet en fil med alle norges landmasser (norge.geojson). Med denne filen og nissens liste av butikker og deres grøtris, kan du hjelpe han finne den raskeste ruten for å kjøpe med seg all tilgjengelig NordPolar-grøtris? Han trenger ikke stoppe der det ikke er grøtris igjen, og han stopper ikke på butikker som ikke selger NordPolar-grøtris. Han starter og stopper på Nordpolen.
+
+Det vil være to svar, samme rute med speilet rekkefølge; Oppgi den ruten som er tidligst innom Jan Mayen. Alle punkter skal ha tre desimaler, og skal rundes ned mot null. Eksempelvis: (90.000,0.000),(59.917,10.738),(59.663,10.628),(90.000,0.000)
+
+Dette filarkivet inneholder butikker.csv og norge.geojson.
+Alvene lagrer koordinatene sine som (breddegrader, lengdegrader). GeoJSON-formatet bruker (lengdegrader, breddegrader).
