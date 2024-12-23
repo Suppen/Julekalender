@@ -1,0 +1,227 @@
+use rayon::prelude::*;
+use std::collections::{HashMap, HashSet};
+use std::fs;
+use std::sync::atomic::{AtomicUsize, Ordering};
+
+#[derive(Debug, PartialEq, Eq, Clone, Copy, Hash)]
+struct Coord(usize, usize);
+
+#[derive(Debug, Clone)]
+struct Board {
+    cells: HashMap<Coord, char>,
+    width: usize,
+    height: usize,
+}
+
+impl Board {
+    const EMPTY_CELL_CHAR: char = '❌';
+
+    fn new(cells: HashMap<Coord, char>) -> Self {
+        let max_x = *cells.keys().map(|Coord(x, _)| x).max().unwrap();
+        let max_y = *cells.keys().map(|Coord(_, y)| y).max().unwrap();
+
+        Self {
+            cells,
+            width: max_x + 1,
+            height: max_y + 1,
+        }
+    }
+
+    fn from_lines(lines: &[String]) -> Self {
+        let cells = lines
+            .iter()
+            .enumerate()
+            .flat_map(|(y, line)| {
+                line.chars()
+                    .enumerate()
+                    .map(|(x, c)| (Coord(x, y), c))
+                    .collect::<Vec<_>>()
+            })
+            .collect();
+
+        Board::new(cells)
+    }
+
+    fn get_cell_value(&self, Coord(x, y): Coord) -> char {
+        *self.cells.get(&Coord(x, y)).unwrap()
+    }
+
+    fn set_cell_value(&mut self, Coord(x, y): Coord, value: char) {
+        self.cells.insert(Coord(x, y), value);
+    }
+
+    fn clear_cell(&mut self, c: Coord) {
+        self.set_cell_value(c, Board::EMPTY_CELL_CHAR);
+    }
+
+    fn cell_is_empty(&self, c: Coord) -> bool {
+        self.get_cell_value(c) == Board::EMPTY_CELL_CHAR
+    }
+
+    fn clear_group(&mut self, group: &HashSet<Coord>) {
+        let xs = group.iter().map(|Coord(x, _)| *x);
+
+        for c in group.iter() {
+            self.clear_cell(*c);
+        }
+
+        for x in xs {
+            loop {
+                let bottom_empty_y = (0..self.height)
+                    .rev()
+                    .find(|y| self.cell_is_empty(Coord(x, *y)))
+                    .unwrap();
+
+                if let Some(bottom_nonempty_y) = (0..bottom_empty_y)
+                    .rev()
+                    .find(|y| !self.cell_is_empty(Coord(x, *y)))
+                {
+                    self.set_cell_value(
+                        Coord(x, bottom_empty_y),
+                        self.get_cell_value(Coord(x, bottom_nonempty_y)),
+                    );
+                    self.clear_cell(Coord(x, bottom_nonempty_y));
+                } else {
+                    break;
+                }
+            }
+        }
+    }
+
+    fn is_cleared(&self) -> bool {
+        self.cells.iter().all(|(_, c)| c == &Board::EMPTY_CELL_CHAR)
+    }
+
+    fn groups(&self) -> Vec<HashSet<Coord>> {
+        let mut groups: Vec<HashSet<Coord>> = Vec::new();
+
+        for x in 0..self.width {
+            for y in 0..self.height {
+                if groups.iter().any(|group| group.contains(&Coord(x, y))) {
+                    continue;
+                }
+                if self.cell_is_empty(Coord(x, y)) {
+                    continue;
+                }
+
+                let mut group = HashSet::new();
+                let cell_value = self.get_cell_value(Coord(x, y));
+
+                let mut q = HashSet::new();
+                q.insert(Coord(x, y));
+
+                while !q.is_empty() {
+                    let c = *q.iter().next().unwrap();
+                    q.remove(&c);
+                    group.insert(c);
+
+                    let Coord(cx, cy) = c;
+
+                    let mut neighbours = Vec::new();
+                    if cx > 0 {
+                        neighbours.push(Coord(cx - 1, cy));
+                    }
+                    if cx < self.width - 1 {
+                        neighbours.push(Coord(cx + 1, cy));
+                    }
+                    if cy > 0 {
+                        neighbours.push(Coord(cx, cy - 1));
+                    }
+                    if cy < self.height - 1 {
+                        neighbours.push(Coord(cx, cy + 1));
+                    }
+
+                    for n in neighbours.iter().cloned() {
+                        if self.get_cell_value(n) == cell_value && !group.contains(&n) {
+                            q.insert(n);
+                        }
+                    }
+                }
+
+                groups.push(group);
+            }
+        }
+
+        groups
+    }
+}
+
+fn parse_boards(content: &str) -> Vec<Board> {
+    let lines: Vec<String> = content.lines().map(|s| s.to_string()).collect();
+    let empty_line_indices: Vec<usize> = lines
+        .iter()
+        .enumerate()
+        .filter(|(_, l)| l.is_empty())
+        .map(|(i, _)| i)
+        .collect();
+
+    let mut boards = Vec::new();
+    let mut start = 0;
+
+    for &end in empty_line_indices
+        .iter()
+        .chain(std::iter::once(&lines.len()))
+    {
+        let board_lines = &lines[start..end];
+        if !board_lines.is_empty() {
+            boards.push(Board::from_lines(board_lines));
+        }
+        start = end + 1;
+    }
+
+    boards
+}
+
+fn solve(board: Board) -> usize {
+    let global_best_depth = AtomicUsize::new(usize::MAX);
+
+    fn recursive_solve(
+        board: Board,
+        current_depth: usize,
+        global_best_depth: &AtomicUsize,
+    ) -> usize {
+        if board.is_cleared() {
+            global_best_depth.fetch_min(current_depth, Ordering::Relaxed);
+            return current_depth;
+        }
+        if current_depth >= global_best_depth.load(Ordering::Relaxed) {
+            return usize::MAX;
+        }
+
+        let mut groups = board.groups();
+        groups.sort_by_key(|group| group.len());
+        groups.reverse();
+
+        let min_depth = groups
+            .par_iter() // Parallelize over the groups
+            .map(|group| {
+                let mut clone = board.clone();
+                clone.clear_group(group);
+                recursive_solve(clone, current_depth + 1, global_best_depth)
+            })
+            .min()
+            .unwrap_or(usize::MAX);
+
+        min_depth
+    }
+
+    recursive_solve(board, 0, &global_best_depth)
+}
+
+fn main() {
+    let content = fs::read_to_string("./stekebrett.txt").expect("Failed to read file");
+    let boards = parse_boards(&content);
+    let total_moves: usize = boards
+        .into_par_iter()
+        .enumerate()
+        .map(|(i, board)| {
+            let depth = solve(board);
+
+            println!("Board {} solved in {} moves", i, depth);
+
+            depth
+        })
+        .sum();
+
+    println!("{}", total_moves);
+}

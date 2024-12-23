@@ -1,0 +1,19 @@
+Pepperkakeformer
+
+Av Sander Krøglid
+
+Nordpolens Rikskringkasting har laget et spill, Pepperkakeformer, som har gått viralt på nordpolen.
+
+Spillbrettet er et tiltenkt stekebrett med pepperkaker arrangert i et rutenett. Spillet går ut på at man skal eliminere alle pepperkakene på brettet ved å gjentatte ganger fjerne alle pepperkaker som tilhører samme gruppe av like former. Etter hver gruppe fjernes flyttes de gjenværende pepperkakene nedover mot bunnen av brettet for å fylle tomrommet. Målet med spillet er å tømme brettet for alle pepperkaker på færrest mulig trekk.
+
+Løsning av et brett på 3x3 kan for eksempel se slik ut:
+
+🤎🦌🧸    ❌🦌🧸    ❌❌❌    ❌❌❌    ❌❌❌
+🤎🧸🧸 -> ❌🧸🧸 -> ❌🦌❌ -> ❌❌❌ -> ❌❌❌
+🤎🦌🎄    ❌🦌🎄    ❌🦌🎄    ❌❌🎄    ❌❌❌
+
+Her har vi først eliminert pepperkakehjertene, så pepperkakebjørnene. Etter å ha fjernet pepperkakebjørnene "faller" pepperkakereinsdyret ned et hakk slik at det blir en gruppe med pepperkakereinsdyret på bunnen. Deretter er det to trekk til for å tømme brettet. Dette brettet kan løses på 4 trekk.
+
+Spillen Spillberg og alvevennegjengen hans elsker å spille Pepperkakeformer, men vennene til Spillen er mye flinkere enn han. Dette har Spillen lyst til å gjøre noe med, så han ber deg lage et program for å finne den beste løsningen slik at han alltid kan vinne over vennene sine. Programmet ditt må klare å løse alle brettene (av varierende størrelse) i denne tekstilen.
+
+Hva er færreste totale antall trekk for å løse alle brettene han gir deg?
