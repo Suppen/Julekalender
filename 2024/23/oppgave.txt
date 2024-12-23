@@ -1,0 +1,9 @@
+Lekemaskinscannernedetidspetakkel
+
+Av Gaute Rauboti
+
+På Nordpolen lever alle alver i harmoni, bortsett fra når lekemaskinen på Juleverkstedet slår seg vrang. De er absolutt kritisk avhengige av å vite hvilken leke som er neste til å komme ut av maskinen, ellers går de fra vettet.
+
+Alvemekanikere er heldigvis dyktige, så lekemaskinen er nok raskt oppe og går igjen. Kan du i mellomtiden hjelpe å finne hva neste leke skal være, slik at alvene kan slappe litt av? Det eneste du har er denne datafilen lekescanneren gir deg. Ingen vet hvordan datafilen fungerer, bare at den er ment til å vises av lekescannerprosjektøren på lekescannerprojektoren som er koblet til lekescanneren ved siden av lekemaskinen i lekemaskinfabrikken.
+
+Hva er neste leke?
