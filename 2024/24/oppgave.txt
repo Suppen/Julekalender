@@ -1,0 +1,11 @@
+Ekstase av Gull
+
+Av 🧝🏻‍♀️ Alle alvene 🧝🏻‍♂️
+
+Nissen har glemt passordet til hvelvet sitt der oppbevarer han alt gullet han bruker til å betale alvene for sin overtidsinnsats i juletiden. Nettopp for slike situasjoner har han skrevet passordet på en Post-it, men den er blitt revet og det eneste som kan synes av passordet er starten: Da-.
+
+Kugutt-alven til unnsetning! Kugutt-alven har hørt om nissens uhell og forteller om sine reiser som etter noen harde netter og usannsynlige soveunderlag kulminerte i en meksikansk standoff mellom han og Krampus og Grinchen. Det viser seg at Grinchen hadde i sin besittelse en fil med nissens elektroniske kommunikasjon - Grinchen har hacket nissen! Med Grinchen ute av bildet er det ikke lenger en trussel, men inneholder filen passordet til nissen? Kugutt-alven lover nissen å finne passordet hans i bytte mot halvparten av gullet i hvelvet. Nissen har ikke annet valg enn å godta.
+
+Grinchens fil inneholder utsnitt av nissens tastetrykk, kommunikasjon, søk og nettleserhistorie i kryptert format. Kugutt-alven vet ikke hvordan å løse opp krypteringen, men erindrer et av Grinchens notater hvor det var skrevet at han krypterer dataen sin med XOR, hvor hver byte i den krypterte dataen er den byten på samme plass i den ukrypterte dataen XOR-et med den foregående byten i den ukrypterte dataen. Videre er det kjent at teksten etter dekryptering er i utf-8-format.
+
+Finner du nissens passord?
