@@ -1,0 +1,19 @@
+Julegavehavari
+
+Av Jonas Jore
+
+Det nærmer seg langt på natt når telefonen din ringer. Det er alvene nede på Julegavefabrikken som forteller at Julegavemaskinen er ikke-responsiv - og de vet ikke hvordan de kan fikse den!
+
+Dette skjer fra tid til annen, men du er en dyktig feilsøker og vet at den beste måten å løse etthvert tekniske problem på, er ved å skru av og på igjen. Du vet også at maskinen kun kan overstyres (for å f. eks. gjennomføre restart) ved å skrive inn en sikkerhetsnøkkel. Og siden Nissen var på sikkerhetsseminar tidligere i år, rulleres denne nå hver 24. time basert på utførte operasjoner i Julegavemaskinen dagen før. Du ber derfor om å få loggen fra alvene.
+
+Julegavemaskinen er gammel og kiler seg enkelt fast dersom båndet får lov å stå stille for lenge. Derfor har alvene lagt inn ekstra PROCESS kommandoer for å sikre at maskinen går kontinuerlig.
+Fremgangsmåte
+
+I loggen finnes 3 typer kommandoer:
+
+    ADD <pakke>- Ordre om ny gave som skal produseres
+    PROCESS - Den gaveordren som har ventet lengst blir produsert. Den første bokstaven i gaven er en del av nøkkelen. Hvis ingen gaver er i kø, legges det til en X
+    COUNT - Julegavemaskinen viser hvor mange gaver som venter på å bli produsert. Det sist sifferet i dette tallet er del av nøkkelen.
+
+Resultatet, bestående av både tall og bokstaver, er nøkkelen du trenger for å få Julegavemaskinen restartet.
+
