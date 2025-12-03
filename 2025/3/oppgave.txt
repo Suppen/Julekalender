@@ -1,0 +1,27 @@
+Snille og slemme barn
+
+Av Audun Berget
+
+Julenissen trenger hjelp! Det er bare noen få dager igjen til julaften, og på Nordpolen er det full panikk! Julenissen har nemlig mistet oversikten over hvem som har vært snille, hvem som har vært slemme – og hvem som har vært ekstra snille med å bake pepperkaker i årets snill og slem liste
+
+For å rekke juleleveringene trenger nissen en magisk sorteringshjelper, men han trenger bare å vite om de 3 snilleste og 3 slemmeste barna. Hver gode handling teller dobbelt så mye som hver slemme handling, og hver pepperkake gir en ektra bonus.
+
+I listen under har hvert barn fått karakterer basert på deres oppførsel i året som har gått. I fjor var listen betydelig kortere:
+
+navn,snill,slem,pepperkaker
+Aksel,81,14,0
+Nora,4,3,11
+Magnus,96,65,18
+Thea,91,12,13
+Eira,87,24,7
+Linus,55,36,13
+Frida,69,53,14
+Hugo,46,58,9
+Julie,78,43,13
+Sindre,1,37,0
+
+Som ga følgende resultater:
+
+Thea 4445,Eira 3855,Magnus 3445,Hugo 985,Nora 290,Sindre -875
+
+Får du til å hjelpe nissen med årets liste?
