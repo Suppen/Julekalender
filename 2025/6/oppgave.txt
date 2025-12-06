@@ -1,0 +1,49 @@
+Perfeksjonsruten
+
+Av Jonas Jore
+
+Rudolf har fått matforgiftning. Han trodde reinsdyrlasagnen i kantina var plantebasert. Det var den IKKE.
+
+Så nå står Julenissen igjen med én løsning: den gamle røde motorsykkelen som har stått parkert bakerst i verkstedet siden 1987.
+
+Motorsykkelen starter med et drønn, og før du får sagt "pepperkake", suser du og julenissen over vidder og breer i et tempo du aldri har sett makan til. Etter en stunds kjøring snur julenissen seg mot deg og sier at vi trenger svaret på Perfeksjonsutregningen før vi når Polhavet, ellers når vi aldri Canada!
+
+Du får slengt i fanget ditt en diskett som kun er markert med perfeksjonsruten.txt, og en bindersblekke du kjapt blar gjennom:
+
+Motorsykkelmotoren drives hverken av bensin, eller magi, og hvertfall IKKE av strøm – men av presisjon. For at den skal kunne kjøre over Polhavet med nøyaktig presisjon for å nå Canada, må motorens presisjonsmeter kalibreres med et helt nøyaktig tall: Perfeksjonsutregningen.
+
+Perfeksjonsutregningen er summen av alle rutene vi må kjøre for å finne den ideelle bølgefrekvensen i nordlyset:
+
+Input i perfeksjonsruten.txt består av soner som inneholder følgende:
+
+    # - uframkommelig terreng (isfjell, skare & snøstorm)
+    . - farbar vei,
+    S - motorsykkelens startpunkt i sonen
+
+    * - sonens mål
+
+    For hver sone vi kjører gjennom må du kalkulere den korteste ruten fra start (S) til slutt (*) som består av retninger (opp, ned, venstre, høyre)
+
+    Hvis ingen vei finnes, regnes avstanden som 0.
+
+    Summér kortest distanse for soner du og nissen kjører gjennom for å finne frem til perfeksjonsrutens presisjonsnivå slik at dere kommer dere over Polhavet, og frem til Canada i god behold.
+
+Eksempel
+
+S..*
+####
+....
+####
+;
+S#.*
+....
+####
+####
+;
+
+Forklaring
+
+Sone 1 har 3 som korteste vei fra start til slutt. Sone 2 har 5 som korteste vei fra start til slutt.
+
+Summen av korteste vei for disse sonene gir denne perfeksjonsrutens et presisjonsnivå på 7
+
