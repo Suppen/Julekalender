@@ -1,0 +1,8 @@
+Troll i ord på Nordpolen
+
+Av Gaute Rauboti
+
+Et gammelt ordtak sier at det kan gå troll i ord. Og det gjelder også på Nordpolen, men der går det ikke bare troll i ord. Der går det også nisser i ord. Og noen ganger går det i overkant mange nisser og troll i ord. Kan du finne ut hvor mange ord det har gått troll eller nisser i fra denne ordlista?
+
+    Det går troll i ord når "T R O L L" er i riktig rekkefølge i ordet, men ikke hvis hver bokstav enten har 0 eller mer enn 5 andre bokstaver mellom seg.
+    Det går nisser i ord når "N I S S E" er i riktig rekkefølge, men ikke hvis hver bokstav har mer enn 2 andre bokstaver mellom seg, og heller ikke hvis N er første bokstav i ordet, eller E er siste bokstav i ordet.
