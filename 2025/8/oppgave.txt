@@ -1,0 +1,17 @@
+Gledens tall
+
+Av Jonas Jore
+
+Julen handler om å spre glede; også på Nordpolen. Derfor føler du et ekstra ansvar når du en dag ser Odd, den lille og ellers glade alvegutten sitte trist og alene i et mørkt hjørne i juleverkstedet. Han er utrøstelig og svarer ikke når du spør hva som er galt. Du ser at han leter igjennom en rekke tall.
+
+Når du spør rundt i verkstedet om hvorfor Odd er så trist, får du til svar at Odd er veldig opptatt av tall, og at visse tall gjør han veldig glad. Du spør videre om det må være primtall. Den lille alven rister på hodet, men du ser at det er et glimt i øyet hans.
+
+Det viser seg at primtall er bare en del av tallene som vil trøste den lille alven, tallene må også være "gledesspreder-tall".
+
+F.eks.:
+
+    171 ville gjort Odd glad
+    36 ville ikke hjulpet noe som helst
+
+Du har lyst til å hjelpe med å spre glede til Odd. Din oppgave er derfor å finne ut hvor mange tall i input.txt som vil trøste alven så mye at han blir glad igjen og kan hjelpe til med alle forberedelser som må gjøres før julaften.
+
