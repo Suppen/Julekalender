@@ -1,0 +1,12 @@
+Linser og Bønner
+
+Av Steinar Heiene
+
+Askepott skal på besøk på Nordpolen. Hvorfor? Fordi stemoren hennes er lei av å gå hjemme, og fordi Julenissen i et svakt øyeblikk spurte hva en crossover var. Men som vi alle vet, vil ikke stemoren egentlig ha Askepott med seg. Så for å forsinke Askepott i pakkingen har hun blandet linser og bønner igjen. Og slikt kan man ikke reise fra. Linsene og bønnene er blandet sammen i en char-streng. For å løse oppgaven må du, som den magiske duen du er, skille linsene fra bønnene med IT-kunnskapene dine. Kun på den måten kan Askepott få tid til å pakke og bli med på ferie.
+
+Når oppgaven er løst skal alle tegn som er "linser" være fjernet fra strengen. Ellers skal tegnene stå i samme rekkefølge som før.
+
+    Alle vokaler er bønner.
+    Alle tall-siffer er linser.
+    Alle konsonanter er linser UNNTATT HVIS tegnet 2 indekser før dem i strengen er et tall OG tegnet 2 indekser etter dem i strengen også er et tall
+    Alle andre tegn er bønner
