@@ -1,0 +1,34 @@
+Julebruskappløpet
+
+Av Gaute Rauboti
+
+Da det i sommer kom nyheter fra Sydpolen om at de ville konkurrere ut det veletablerte Nordpolen som den mest julete polen på kloden, satte Julenissen julebrusen i halsen. For det var nettopp julebrus-markedet Sydpolen så for seg å begynne med.
+
+Julenissen kastet ikke bort et sekund, og beordet en umiddelbar økning i produksjonen av julebrus. Og nå er han interessert i hvor mange liter de greide få produsert på Nordpolen, slik at han kan peke nese sørover.
+
+Julebrusmaskinene har fail safe mekanismer for å sikre rett kvalitet. For å starte produksjon må de derfor ha en temperatur mellom 95 og 105 grader, vannbeholdning mellom 400 og 1500 liter og en kullsyrebeholdning mellom 300 og 500 liter. Det betyr for eksempel at en julebrusmaskin som holder temperatur på 95 grader, har 400 liter vann og 300 liter kullsyre vil produsere.
+
+Julebrusmaskinene bruker vann ned til det kun er 100 liter vann igjen og kullsyre tilsvarende en tiendedel av antall liter kullsyre. Dersom temperaturen er 100 grader eller mer, må 1/40 trekkes fra til slutt, fordi julebrusmaskinene ikke klarer forhindre at noe fordamper bort. For estimater rundes det da ned for å kompensere.
+
+Kan du, ut fra oversikten over hva hver julebrusmaskin produserte finne ut hvor mange liter det ble totalt og hvilken maskin som var den mest-produserende?
+Eksempel
+
+En maskin har temperatur på 101 grader, har 500 liter vann og 300 liter kullsyre.
+
+400 + (300/10) = 430
+
+Temperatur er her 100 eller høyere, så 430/40 = 10,75L, eller 10L avrundet. Estimert resultat blir derfor 420 liter.
+
+I et større eksempel, med en slik oversikt:
+
+Maskin A, temperatur 101C, vann 1078L, kullsyre 486L
+Maskin B, temperatur 90C, vann 1018L, kullsyre 358L
+Maskin C, temperatur 101C, vann 904L, kullsyre 466L
+Maskin B, temperatur 100C, vann 519L, kullsyre 485L
+Maskin A, temperatur 104C, vann 947L, kullsyre 337L
+Maskin C, temperatur 97C, vann 1649L, kullsyre 451L
+Maskin B, temperatur 98C, vann 1203L, kullsyre 485L
+Maskin D, temperatur 104C, vann 490L, kullsyre 801L
+
+Vil totalt antall liter bli 4295, og derfor vil rett svar bli "4295 A" fordi Maskin A produserte mest, med 1859 liter. Merk at maskinene har hatt flere produksjonssykluser og derfor fremgår flere ganger.
+
