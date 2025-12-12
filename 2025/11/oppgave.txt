@@ -1,0 +1,18 @@
+Pakklistekrise
+
+Av Ingrid Liabakk Eriksen
+
+Julen nærmer seg! Nissen gjør de siste forberedelsene før morgendagens tur med sleden. Han har nå kommet til pakkingen av gavesekken, men oppdager til sin store forskrekkelse at ingen har dobbeltsjekket pakklisten! Julesleden er nemlig en nyere modell. Den er mye mer komfortabel for en Julenisse i sin beste alder på lange turer, men den tåler ikke like høy vekt som den forrige. Så pakklisten er nå altfor lang, og nissen må velge hvilke gaver som skal være med. Det trenger han din hjelp til!
+
+Han gir deg derfor pakklisten. Øverst har han skrevet hvor stor vekt den nye sleden kan ta. Deretter følger gavene, hver med tre verdier slik: gave,vekt,glede Gave er navnet på pakken, vekt er hvor tung pakken er og glede er hvor mye glede den gir til barnet som mottar den.
+
+Nissen ønsker selvfølgelig å ta med så mange gaver som mulig, slik at flest mulig barn blir mest mulig glad innenfor den tilgjengelige kapasiteten på sleden.
+Eksempel
+
+Gitt følgende pakkliste kan du oppnå en glede på 90,3
+
+20
+dukke,5,30
+lego,10,50
+sokker,8,40
+klementin,4,10
