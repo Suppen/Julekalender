@@ -1,0 +1,19 @@
+Produksjonskodekaos
+
+Av Ingrid Liabakk Eriksen
+
+På Alvefabrikken går produksjonen for fullt, men som vanlig har det sneket seg inn bittelitt kaos. Alvene lager flere forskjellige leker, og hver leke har en produksjonskode; et 8-bit binærtall. Vanligvis fungerer dette helt fint… men denne uken har produksjonsmaskinen begynt å speile noen av binærtallene baklengs!
+
+Alvene frykter nå at de ligger bakpå med produksjon av bamser, og heldigvis er i alle fall den produksjonskoden riktig. Men slede har blitt speilvendt, og ser derfor nå identisk ut som bamse! De må vite hvor mange bamser de allerede har produsert for å ha tid til å rette opp hvis det er for lite, men på grunn av de speilvendte kodene klarer ingen av dem å lese dataene riktig.
+
+Alvene kan fortelle at:
+
+    bamse har produksjonskode 01001010
+    togsett har produksjonskode 01000010
+    togsett blir alltid produsert før bamse
+
+Kan du hjelpe alvene med å tyde input.txt slik at de finner ut hvor mange bamser de har produsert?
+
+
+Suppen's Note: Denne oppgaven gir absolutt ingen mening. Forventet svar er 53, som er summen av antall bamsekoder og
+reverserte bamsekoder (opprinnelige sledekoder). Ingen i kommentarfeltet skjønte det heller, og de fleste bare gjettet.
