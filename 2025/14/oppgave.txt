@@ -1,0 +1,9 @@
+Routing Panic
+
+Av Gaute Rauboti
+
+Det er mange pakker som skal leveres til mange barn over hele kloden. Julenissen bruker derfor teknologi for å hjelpe med det. Og nå har han nettopp fått oppdatert sitt Gift Routing Network (GRN), som holder kontroll på rutene sleden følger, gavefabrikk-data og real-time oppdatering i Nice&Naughty-systemet - hvor de har full oversikt over hvilke barn som er snille og ikke.
+
+Men, oppdateringen har ikke gått smertefritt. De har nemlig fått introdusert recursive routes som gjør at pakker spinner i loop. Du har blitt gitt 'denne oversikten' over ruter og tid. Hver linje ser ca slik ut R12 -> R34 (4), som forteller deg at det er en kobling fra R12 til R34, som bruker 4 millisekunder.
+
+Din oppgave er å finne den loopen som tar kortest tid (målt i millisekunder) fra en node og tilbake igjen til seg selv. Svaret angis på format som viser hvilken node loopen starter og slutter på, hvilke den er innom, pluss den totale tiden det tar f.eks. R1 -> R56 -> R12 -> R1 (9). Svaret må begynne på den lavest nummererte noden.
