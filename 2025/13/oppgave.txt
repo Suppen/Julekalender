@@ -1,0 +1,47 @@
+Nissemors kjøkken
+
+Av Jonas Jore
+
+Det nærmer seg jul, og i dag er det tid for julenissens prøvetur med sleden. Nissemor ser ut vinduet. Det er dårlig vær på nordpolen og ikveld snør det sidelengs. Hun vet derfor allerede at nissen kommer til å være både kald og sulten når han kommer tilbake. Hun bestemmer seg derfor for at hun vil overraske med julebakst når han kommer tilbake igjen; ingenting varmer en nisse bedre opp igjen enn duften av varmt smør, sukker og julekaker!
+
+Nissemor har mange oppskrifter i kokeboken sin som hun kan velge mellom, men hun vet at hun ikke rekker alt før nissen kommer tilbake om T minutter.
+Hver kake gir Nissen et visst antall Gledespoeng, et mål på hvor fornøyd han blir med hver enkelt kake som nissemor baker til han.
+Problemet er bare at mange av kakene deler de samme forberedelsesstegene.
+
+For eksempel må både pepperkaker og vaniljekranser starte med å Mixe deigen og Bake i ovnen.
+Hvis Nissemor allerede har gjort et steg som brukes av flere kaker, trenger hun bare gjøre det én gang, så lenge begge kakene faktisk bakes ferdig.
+
+Hun må derfor bestemme hvilke kaker hun skal lage og hvilke steg som må utføres,
+for å oppnå flest mulig Gledespoeng hos Julenissen før tida er ute.
+Oppgave
+
+Du får:
+
+    En tidsgrense (T) – antall minutter før Julenissen kommer tilbake.
+    En liste med steg og hvor lang tid hvert steg tar.
+    En liste med kaker – hver med et antall Gledespoeng og en rekke steg som kreves.
+
+Målet er å finne den kombinasjonen av kaker som gir maksimalt antall Gledespoeng
+uten å overskride tidsgrensen.
+Felles steg mellom kaker teller bare én gang i tidsbruk.
+Inputformat
+
+Input-filen følger dette formatet:
+
+T=12
+Start:2
+Mix:3
+AddSugar:2
+Bake:5
+Decorate:3
+---
+Pepperkake 10 Start Mix Bake Decorate
+Sjokoladekake 12 Start Mix Bake
+Havrekjeks 7 Start Mix Bake
+
+Hvor gitt input over vil ende opp med et resultat som ser slik ut:
+
+"19,Havrekjeks,Sjokoladekake"
+
+En kommaseparert streng hvor den første verdien består av maksimalt antall Gledespoeng samlet av baksten. I eksemplet her er maksimale Gledespoeng fra baksten på 19. Resten av verdiene i strengen over skal vise hvilke kaker Nissemor har rukket å bake.
+
