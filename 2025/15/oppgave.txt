@@ -1,0 +1,22 @@
+Sjokoladekalenderen
+
+Av Audun Berget
+
+Det nærmer seg jul med stormskritt og alle barna har fått julekalender også dette året. Barna elsker de klassiske
+sjokoladekalenderne, så som i fjor så ble det handlet inn kalendere fra Cowi 10. Svært lite har tilsynelatende endret
+seg, da selve kalenderen har de samme dimensjonene som året, men prisen har selvfølgelig økt betraktelig. Dette bryr
+heldigvis ikke barna seg om da de ikke betaler selv, men når man ser på innholdsfortegnelsen så oppdager man at årets
+julekalendere har betraktelig mindre innhold enn de foregående årene.
+
+"Dette er jo helt krise" utbryter det mest observante barnet da hun oppdager differansen. I fjor så veide kalenderen
+$167772150mg$ mens i år veier de kun $149848566mg$. De seneste nyhetsreportasjene melder at årets kalendere har byttet
+ut mye av den gode sjokoladen med billigvarianten mockulade. Ikke bare smaker mockuladen verre, men den veier også
+betraktelig mindre enn den ekte sjokoladen, hele 30% mindre enn ordentlig sjokolade melder nyhetsbyråene. Dessverre så
+ser mockuladen helt lik ut som vanlig sjokolade, så barna lurer på om det finnes en måte å finne ut hvilke luker som
+ikke inneholder ekte sjokolade. Sjokoladekalenderen består fremdeles av 24 luker, hvorav hver luke skal inneholde
+$2^{\text{lukenummer-1}}$ antall sjokoladebiter.
+
+Barna vil vite hvor mye en ekte sjokoladebit veier, hvor mye en mockuladebit veier, og hvilke luker som inneholder mockulade.
+
+Eksempelvis dersom en sjokoladebit veier 5mg og en mockuladebit veier 3mg, og luke 2, 4 og 11 inneholder mockulade, så vil de ha svaret på følgende format:
+SjokoladeMg:5,MockuladeMg:3,AntallMockulader:11,Luker:2,4,11
