@@ -1,0 +1,14 @@
+Nissens nye navigasjonssystem
+
+Av Gaute Rauboti
+
+Det nærmer seg julaften, og Julenissen gleder seg veldig til å teste ut sitt nye navigasjonssystem, Ruldof 2.0 (ingen relasjon til reinsdyret). Hele året er brukt på å utvikle verktøyet, og det passerer alle tester. Testene er riktignok fulle av testdata for å fylle opp der man forventer en gitt status i produksjon. Og du som utvikler vet naturligvis at noen ganger er ikke tester en fullstendig erstatning for reelle tilfeller. Derfor lar du samvittigheten ta overhånd, og tar med deg systemet ut på tur for å se om det fungerer.
+
+Systemet kan minne litt om en smartklokke med Google Maps på. På grunn av dette er Julenissen faktisk i en bitter rettstrid med Alphabet, men han føler seg sikker på å vinne. Hans løsning er nemlig i svart-hvitt, har ingen ekstra kartlag, kalkulerer ingenting og overlater alle avgjørelser til brukerens egen dømmekraft. Altså er systemet mye bedre. Det har også hele 1024px hver vei!
+
+Etter at du har gått en stund, begynner det å snø veldig tett. Så tett at du faktisk ikke ser så mye, og heller ikke er sikker på hvordan du skal finne tilbake. "Perfekt", tenker du og sjekker Ruldof. Men der du forventet å se et oversiktsbilde, er det nå bare tekst. Og du må flire litt, for når du leser [3,305](FAFAFA) forstår du fort 2 ting:
+
+    systemet tegner pixel for pixel
+    nissen har selv valgt at dette skal være svart-hvitt
+
+Kan du ut fra all teksten du ser finne ut hvilken vei du må gå for å komme deg hjem igjen?
