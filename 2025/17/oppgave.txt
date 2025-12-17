@@ -1,0 +1,14 @@
+Do you wanna build a snowman?
+
+Av Gaute Rauboti
+
+Anna elsker snømenn. Av hele sitt hjerte, elsker hun snømenn. Så nå har hun laget en bot (den heter også Anna) til å hjelpe seg å lage mange av dem. Den tar følgende instruksjoner:
+
+    ROLL: Ruller snøball. Den kan rulles videre til å bli en mellomstor snøball eller enda videre til en stor snøball.
+    STACK: Anna (botten) vil forsøke å legge en liten eller mellomstor snøball på en annen. En mellomstor snøball kan legges på en stor snøball. En liten snøball kan legges på en mellomstor snøball hvis den mellomstore snøballen allerede ligger på en stor snøball.
+    HAT: Setter hatt på en pynteklar snømann
+    CARROT: Setter gulrot på pynteklar snømann
+
+En pynteklar snømann er når 3 snøballer er lagt oppå hverandre i gyldig rekkefølge. En godkjent snømann er en snømann som har både hatt og gulrot. Vel og bra, tenker du kanskje. Men Anna (ikke botten) har glemt å designe køsystemet sitt med rekkefølgegaranti, så kommandoene skjer litt i ustadig rekkefølge. Heldigvis vil Anna (botten) alltid prioritere å pynte ferdig over å pynte nye snømenn, samt ignorere kommandoer som ikke lar seg utføre.
+
+Gitt at kommandoene kommer i denne rekkefølga, hvor mange godkjente snømenn klarer botten Anna å lage?
