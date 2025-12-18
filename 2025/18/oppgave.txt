@@ -1,0 +1,39 @@
+Hullkortene
+
+Av Audun Berget
+
+Det er kaos på julevekstedet!
+
+Juleissen har mistet koden til leketøysrommet sitt, og uten den kan han ikke levere gaver til barna i år. Heldigvis har nissens alver funnet en haug med hullkort som kan inneholde ledetråder til koden. Nissen bruker ikke lenger den utdaterte teknologien, men koden til leketøysrommet kan finnes gjennom de forskjellige hullkortene. Det nissen husker, er følgende:
+
+    Koden er basert på indeksering av hullkortene (en index tilsvarer et hullkort), og starter fra 1 (dvs at første rad er 1, 2, 3, neste er 4, 5, 6 osv)
+    Noen av hullkortene er prikk like hverandre
+
+Han husker også koden var 15911 for følgende hullkortserie når han åpnet et mindre leketøysrom:
+
+** **     * * *     **  *
+*   *     ** **     * * *
+* * *     *   *     * ***
+*   *     ** **     **  *
+*****     * * *     * * *
+
+*****     ** **      ***
+**  *     *   *      * *
+* * *     * * *      ***
+*  **     *   *      * *
+*****     *****      ***
+
+* * *     ** **     ** **
+*   *     *   *     *   *
+  * *     *   *     * * *
+*   *     *   *     *   *
+*** *     ** **     *****
+
+* * *     ** **     ** **
+*   *     *   *     *****
+  *       * * *     * * *
+*   *     *   *     *   *
+* * *     *****       ***
+
+Kan du hjelpe nissen med å finne koden til leketøysrommet ved å analysere hullkortene han har funnet?
+
