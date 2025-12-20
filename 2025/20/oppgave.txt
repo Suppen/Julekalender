@@ -1,0 +1,21 @@
+Nissemors Julebord
+
+Av Audun Berget
+
+Det nærmer seg jul med stormskritt, og Nissemor har bestemt seg for å invitere alle de små på Nordpolen til et søtt julebord. Middagsmaten blir tatt hånd om av et cateringselskap, men godteriet må hun ordne selv. Hun har et budsjett på 50 000,- og hun har en liste over diverse godteri hun ønsker å handle inn. Utover dette så vil hun ha mest sukker for pengene, men hun har også noen begrensninger på hvor mye hun kan kjøpe av hver type godteri. Listen har oversikt over følgende:
+
+navn,pris per boks,vekt per boks (kg),sukkerinhold (i prosent),maks kilo,minimum antall bokser
+
+Eksempelvis kan listen se slik ut:
+
+Melkesjokolade,300,0.75,8,18,5
+Vingummi,550,1,40,10,8,5
+Marsipan,300,0.75,12,5,3
+Eventyrsjokolade,40,0.5,5,50,10
+
+Det vil si at med denne listen så måtte Nissemor ha kjøpt inn 5 bokser med melkesjokolade, 5 bokser med vingummi, 3 bokser med marsipan og 10 bokser med eventyrsjokolade for å oppfylle minimumskravet for antall enheter. Hun kunne imidlertid ikke kjøpt mer enn 18kg melkesjokolade, 10kg vingummi, 5kg marsipan og 50kg eventyrsjokolade, uavhengig om det var rom for mer i budsjettet. Nissemor vil vite hvor mye budsjettet som blir brukt, og hvor mange bokser av det ulike godteriet hun skal kjøpe for å maksimere mengden sukker til julebordet. Hun vil ha svaret i følgende format:
+
+18500,Melkesjokolade:24,Vingummi:10,Marsipan:6,Eventyrsjokolade:100
+
+Her har det da kostet Nissemor 18500,- for innkjøp av 24 bokser med melkesjokolade, 10 bokser med vingummi, 6 bokser med marsipan og 100 bokser med eventyrsjokolade.
+
