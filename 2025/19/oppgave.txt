@@ -1,0 +1,15 @@
+Julegaveflytting
+
+Av Audun Berget
+
+Julenissens mest betrodde hjelper Alvin har oppdaget at det har oppstått et problem med julegavene som skal lastes opp på sleden før de skal videre ut i verden. Utenfor juleverkstedet på Nordpolen er det satt opp noen stasjoner hvor julegavene skal samles før de lastes opp på sleden. Julenissen hadde bestilt levering av PostNordpolen, men fikk beskjed om at ingen var tilstede da leveringen under leveringstidspunktet, og derfor ble alle gavene satt igjen ved første stasjon.
+
+Alvin har nå fått i oppgave å flytte alle gavene til riktig stasjon — stasjon 4, men det er ikke helt rett frem å utføre denne flyttingen. Det finnes totalt fem stasjoner hvor gavene kan plasseres underveis, men alle gavene skal ende opp på stasjon 4. Alle gavene kan kun settes fra seg i en stabel, slik at dersom det er mer enn én gave så vil gavene alltid ligge oppe på hverandre. Alle gavene er beskrevet i en liste over med gavenummer, vekt i kg, og form. Alvin kan bare løfte 10kg, og han kan aldri løfte flere enn tre gaver samtidig. Gavene har også forskjellige former som gjør at enkelte gaver ikke kan ligge oppe på hverandre. Gaver som er runde eller sylindere kan ikke ligge opp andre gaver som er runde eller sylindere. Det vil si at eksempelvis så kan ikke en sylinderformet gave ha en rund gave liggende oppe på seg. Gavene vil alltid bli båret fra toppen av stabelen, men man kan heller ikke kan bære runde og sylinderformede gaver oppe på hverandre. Gaver kan heller ikke ligge oppe på hverandre hvis den øverste gaven er tyngre enn den under, uavhengig av hvilken form gavene har.
+
+PostNordpolen har dessverre vært noe uforsiktige med gavene, så i stabelen på stasjon 0, hvor gave ble levert, så tok de ikke hensyn til at tyngre gaver ikke skal ligge oppe på letter gaver. De var også utrolig flinke til å balansere gavene, slik at det endte opp med at runde eller sylinderformede gaver ble liggende oppe på andre runde eller sylinderformede gaver.
+
+Alvin trenger derfor din hjelp til å finne ut hvordan han kan flytte alle gavene i færrest mulig trekk fra stasjon 0 til stasjon 4, uten å bryte noen av reglene for bæring og stabling av gavene. Hvordan skal Alvin flytte gavene slik at ingen blir ødelagt under flyttingen? Han vil gjerne ha instrukser i følgende format:
+
+[D,E] 0 > 2. [C] 0 > 3. [A,B] 0 > 4.
+
+Her vil den første gaven være den nederste i stabelen han bærer, slik at gave #4 ligger under gave #5.
