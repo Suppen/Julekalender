@@ -1,0 +1,43 @@
+Krampus' Ritual-Checksum
+
+Av Jonas Jore
+
+Nordpolens IT-avdeling har klart det igjen.
+De åpnet en e-post fra Krampus' Premium Sleder med emnefeltet:
+
+    "DU HAR VUNNET 1 GRATIS SLEDE (IKKE SPAM)"
+
+Nordpolens IT-avdeling, som aldri har bestått en phishing-test klikket umiddelbart, og dermed var katastrofen et faktum.
+
+E-posten kom fra Krampus sin egen hackergruppe: SørPolSec, et kollektiv av halvmotiverte hackere som jobber i badekåper, drikker lunken kakao og bruker utelukkende ToDo-kommentarer til issue management.
+
+Som del av angrepet har SørPolSec låst alle nordpolens datamaskiner som nå kun klarer å vise flere, store ASCII-pentagrammer i input.txt. Dette pentagrammet fungerer som et skadelig rituale som forstyrrer hele julelogistikken. Dersom det ikke nøytraliseres, risikerer Nissen at alle gavelister sorteres slik at kun de slemmeste barna får gaver og alle snille barn får kull.
+
+En av alvene har klart å sende deg en skjermdump av en av de låste skjermene som er infisert av SørPolSec's angrep.
+
+Nissen trenger hjelp, og det er bare du som er i stand til å stanse dette forferdelige løsepenge-ritualet.
+
+Målet ditt er å beregne sabotasjeverdien, et tall som avgjør om ritualet deaktiveres.
+
+Dette gjør du ved å summere linjescorer basert på magiske tegn, og trekke fra en straff for alle Krampus-tegn.
+
+Alle andre tegn i filen er vanhellige Krampus-tegn.
+
+For hver linje må du telle antall magiske tegn som finnes. Antallet magiske tegn skal så multipliseres med linjenummeret du befinner deg på. (SørPolSec's hackere baserer alle tall på antall ganger de har kræsjet sine egne servere, dvs alt starter på 1.) For hvert tegn som er et vederstyggelig Krampus-tegn må man finne tegnets ASCII-verdi, også finne summen av alle de heslige krampus-tegnenes ASCII-verdier.
+
+Alle "linje-scores" må legges sammen for å finne den aktuelle sabotasjeverdien. Når det gjelder magiske tegn, så er kun disse tegnene å regnes som magiske: M, d & +.
+
+Checksum = (sum av linje-scorer) – (sum av ASCII-verdier for Forferdelige Krampus-tegn)
+
+Sabotasjeverdien er nøkkelen som lar alvene låse opp igjen IT-systemet sitt, så de kan fortsette med alle forberedelser som skal gjøres til jul.
+
+Eksempel:
+
+Md-
+
+    Magiske tegn: M, d -> 2 stk
+    Linje-score: 2 * 1 = 2
+    Horribelt Krampus-tegn: - -> 45
+    Sabotasjeverdi: 2 – 45 = -43
+
+
