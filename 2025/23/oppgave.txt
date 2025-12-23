@@ -1,0 +1,12 @@
+Nissene over skog og hei
+
+Av Mattis Hembre
+
+Rampenissene Smelly og Banandrej elsker å prokrastinere. De har fått i oppgave å finne den beste og fineste veien fra Alvehostellet til varelageret. Men de ser at denne oppgaven ikke er provisjonsbasert, men har timesbasert lønn. Så lure som de er, klarer de å argumentere for at de er nødt til å prøve absolutt alle mulige veier fra Alvehostellet til varelageret for å kunne garantere at de har funnet den fineste veien.
+
+Ledelsen mener dette ikke er sunt, men de går med på et kompromiss slik at rampenissene ikke velger unødvendige veier: De har kun lov til å gå i retning mot varelageret.
+
+Rampenissene bestemmer seg for å dele opp kartet i ruter på 1×1 meter og markerer de stedene hvor det ikke er mulig å gå med x, og o der det er mulig å gå. De markerer starten med «A» og slutten med «B». Alvene tolker, ut fra det ledelsen har sagt, at de kun har lov til å bevege seg 1 meter ned, 1 meter til høyre og √2 meter diagonalt i 45°, altså én meter ned og til høyre.
+
+Hvor mange unike veier kan rampenissene ta før de kan garantere at de har funnet den fineste og tryggeste veien for nissen?
+
