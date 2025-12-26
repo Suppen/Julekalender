@@ -1,0 +1,21 @@
+Juletremysteriet
+
+Av Audun Berget
+
+Julenissen er ute og farter igjen, men han har glemt å gi beskjed om hvor han er og hvor lenge han skal være der. Han er tilogmed offline på Slack og Teams, og nissemor begynner derfor å bli litt bekymret. Gleden er derfor stor nå det tikker inn en epost. Der står det
+
+Hei,
+
+Jeg måtte dra raskt og glemte si ifra. Men jeg gleder meg å komme hjem igjen og pynte juletreet. Spesielt skal det bli godt å få opp juletrekulene; de minner meg slik om nesa til Rudolf. Men først må rubbel og bit av disse gavene leveres til barn over hele kloden.
+
+Julekos,
+Nissen over alle Nisser
+
+Nissemor skjønner ingenting, men ser at det er vedlagt et bilde.
+
+Hun sukker høyt. Dette har hun nemlig vært med på før, helt siden Julenissen tok det hersens kryptografi-kurset. Så hun setter seg derfor ned for å drodle litt. Om hun husker rett, måtte hun finne en og en bokstav. Men i jakten på de 8 første pixlene, gir hun opp. Kan du hjelpe?
+
+
+Suppen's Edit: Svaret på denne er "kommunebud". Hvordan man kommer seg til det aner jeg ikke, men det ser ut til at man
+tar LSB i den røde fargekanalen til noen av pikslene og de 7 etterfølgende. Da får man 8 bits, som kan gjøres om til
+bokstaver. Hvilke piksler ser litt random ut, og hva tegnene i "NICE"-listen betyr har jeg ikke peiling på.
